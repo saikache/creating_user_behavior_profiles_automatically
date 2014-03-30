@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= "Creating User Behavior Profiles" %></title>
+    <%= csrf_meta_tags %>
+    <%= stylesheet_link_tag "application", :media => "all" %>
+    <%= javascript_include_tag "application" %>
+  </head>
+  <body>
+
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-target=".nav-collapse" data-toggle="collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="/">Creating a User Behavior</a>
+          <div class="container nav-collapse">
+            <ul class="nav">
+                <li><%= link_to "Upload A HistoryFile", "/histories/new" %></li>
+               <li class="divider-vertical"></li>
+               <li><%= link_to "Behavior", "/charts/index" %></li>             
+            </ul>
+            <div class="span5 pull-right" style="margin-top:1em">
+               <% if current_user %>
+                Logged in as &nbsp; <%= current_user.email%>.&nbsp;&nbsp;
+                <%= link_to "Log out", log_out_path,:style => "color:red" %>
+               <% else %>
+                <%= link_to "Sign up", sign_up_path %> &nbsp; &nbsp;
+                <%= link_to "log in", log_in_path %> 
+              <% end %>
+            </div>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+          <div class="span12">
+            <%= bootstrap_flash %>
+            <%= yield %>
+          </div>
+
+
+        </div> 
+
+      <footer style="text-align:center" class="navbar-fixed-bottom">
+        <p>&copy; Company 2014</p>
+      </footer>
+
+    </div> <!-- /container -->
+  </body>
+</html>
+
+<style type="text/css">
+a:hover{
+text-decoration: none;
+color: #123456;
+background-color: transparent;
+}
+body{
+font-family:times;
+}
+</style>

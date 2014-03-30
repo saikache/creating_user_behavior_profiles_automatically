@@ -1,0 +1,40 @@
+<h2 style="color:#123456;text-decoration:underline">List Of Employees:</h2>
+<form action="/charts/show" method="post">
+<table border="1" class="table table-striped">
+<tr>
+	<th>User Id</th>
+	<th>User Name</th>
+	<th> Email Id</th>
+	<th> Employee Id</th>
+	<th>No.of Commands</th>
+	<th>Standard</th>
+
+</tr>
+<% @users.each do |history|%>
+ <tr>
+ 	<td><%= history.id %></td>
+	<td><%= history.user_name%></td>
+	<td><%=history.email%></td>
+	<td><%=history.employeeid%></td>
+	<td><%= a =history.user_commands.pluck(:uniq_command).count%></td>
+
+<%if a <= 30 %>
+<td>Non-Programmer</td>
+<%elsif a > 30 and a < 40%>
+<td>Trainee</td>
+<%elsif a > 40 and a < 50%>
+<td>Programmer</td>
+<%elsif a >50 and a < 70%>
+<td>Expert Programmer</td>
+<% elsif a > 70 %>
+<td>Computer Scientist</td>
+<%end%>
+
+ </tr>
+<%end%>
+</table>
+<br><br>
+<h4 style="font-family:times;color:#123456;text-decoration:underline">Select One Id From The Above To Get The Behavior:</h4>
+  <%= select_tag :id, options_for_select(@users.collect{|p| p.id})%>
+  <button class="btn btn-success" type="submit">Submit </button>
+</form>

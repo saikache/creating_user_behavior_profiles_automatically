@@ -1,0 +1,500 @@
+exit
+rails c
+rails g migration add_deatils_to_scores scoreteam1:string scoreteam2:string
+rake db:migrate
+rails s -p3344
+exit
+cd work/newmj/
+rails s
+git pull
+rails s
+ssh root@166.78.24.248
+cd ..
+cd ..
+rails new cricket -d mysql
+rails new cricket -d mysql
+cd cricket
+bundle
+bundle update
+bundle update
+cd ..
+rm -rf cricket
+rvm gemset list
+rvm gemset use 3.2.13
+rails new cricket -d mysql
+cd cricket
+bundle
+rails g active_admin:install
+rake db:create
+rails g
+rake db:create
+rake db:drop
+rake db:create
+rails g active_admin:install
+rails g model header team1:string team2:string content:string
+rails g model batting name:string runs:integer sixes:integer fours:integer is_out:boolean how_out:string wk_taken:string
+rails g model bowler team_id:integer overs:float runs:integer maidens:integer noballs:integer wides:integer wkts:integer
+rails g controller score index
+rake db:migrate
+rails s -p1234
+bundle
+rails s -p1234
+rails g active_admin:resource header
+rails g active_admin:resource batting
+rails g active_admin:resource bowling
+rails s -p1234
+rails d active_admin:resource bowling
+rails g active_admin:resource bowler
+rails d active_admin:resource bowling
+rails g active_admin:resource bowler
+rails s -p1234
+bundle
+rails g
+rails g foundation:install
+bundle
+rails s -p1234
+rake db:migrate:reset
+rails s -p1234
+rake db:migrate:reset
+rails s -p1234
+rails g model result runs:integer wkts:integer target:integer venue:string
+rake db:migrate
+rails g active_admin:resource result
+rails s -p1234
+bundle
+rails s -p1234
+bundle
+rails s -p1234
+rake db:seed
+rails s -p1234
+rake db:seed
+rails s -p1234
+rails s -p1234
+cd mpl/
+rails s
+rails s
+rails s
+exit
+rake db:seed
+rake db:migrate:reset
+rake db:migrate:reset
+rake db:seed
+exit
+cd ..
+cd mpl newmj
+cd ..
+cd mplnew/
+bundle
+rake db:create
+rake db:migrate
+rails s -p1234
+fuser -k 1234/tcp\
+fuser -k 1234/tcp
+rails s -p1234
+rm rf -tmp/pids
+rm -rf tmp/pids
+rails s -p1234
+rails s -p1234
+rails s -p1234
+rails s -p1234
+rails s -p1234
+rails s -p1234
+rails s -p1234
+rails s -p1234
+rails s -p1234
+exit
+rails g model team name:string
+rake db:migrate
+rails g active_admin:resource team
+rake db:seed
+rake db:migrate:reset
+rake db:seed
+rake db:migrate:reset
+rake db:seed
+rails c
+rake db:migrate:reset
+rake db:seed
+rake db:migrate:reset
+rails c
+rake db:migrate:reset
+rails c
+rake db:seed
+rake db:migrate:reset
+rake db:migrate:reset
+exit
+rails c
+rake db:migrate:reset
+rake db:seed
+rake db:seed
+rake db:migrate:reset
+rake db:seed
+rails c
+rake db:migrate:reset
+rake db:seed
+rails c
+rake db:migrate:reset
+rake db:seed
+rails c
+rake db:migrate:reset
+rake db:seed
+rails c
+exit
+cd mplnew/
+rails s -p1234
+rails s -p1234
+rails s -p1234
+rails s -p1234
+rails s -p1234
+rails s -p1234
+exit
+cd
+cd mplnew/
+rails s -p1234
+exit
+cd work/newmj/
+rails s
+exit
+cd work/newmj/
+rails s
+ssh root@166.78.24.248
+git pull
+rails s
+exit
+cd
+cd mplnew
+rails s -p1234
+rails s -p1234
+rails s -p1345
+exit
+cd
+cd mplnew/
+rails s -p1234
+exit
+cd work/newmj/
+rails s
+exit
+rails c
+exit
+cd mplnew/
+rails s -p1234
+exit
+cd
+cd mplnew/
+rails s -p1234
+rake db:migrate:reset
+rails s -p1234
+rake tmp:clear
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/bhanu22776/mplnew.git
+git remote -v
+git remote add bhanu https://github.com/bhanu22776/mplnew.git
+git push -u bhanu master
+rails s -p1234
+rake db:migrate:reset
+rails s -p1234
+git status
+git add app/admin/scores.rb
+git commit -m "score admin changed"
+git push
+rails s -p1234
+rake db:migrate
+rake db:migrate:reset
+rake db:seed
+rails s -p1234
+rake db:migrate:reset
+rake db:seed
+rails s -p1234
+rake db:migrate:reset
+rake db:seed
+rake db:migrate:reset
+rake db:seed
+rails s -p1234
+exit
+exit
+rails c
+exit
+cd work/newmj/
+rails s
+exit
+cd mplnew
+rails s -p1234
+rake db:migrate:reset
+rake db:seed
+rails s -p1234
+exit
+cd
+mkdir mplgit
+cd mplgit/
+git clone
+git clone https://github.com/bhanu22776/mplnew.git
+cd mplnew/
+git add
+git add.
+git add .
+git add .
+git commit -m "score index and sho"
+git commit -m "score index and show"
+git push
+exit
+cd
+cd mplgit/
+cd mplnew/
+exit
+cd work/newmj/
+rails s
+rails c
+exit
+rails c
+gem install random_data
+rails c
+rake db:seed
+rails c
+rake db:seed
+rake db:migrate:reset
+rake db:seed
+rails c
+exit
+cd ..
+cd mplgit/
+cd mplnew/
+rake db:create
+rake db:migrate
+exit
+rails c
+rails c
+rails c
+exit
+cd
+cd mplgit/mplnew/
+rails s -p3456
+exit
+rake db:seed
+rake db:seed
+exit
+cd
+cd mplnew/
+rails s -p1234
+rake tmp:clear
+git add .
+git commit -m "asiacup"
+git push
+rails s -p1234
+rake db:migrate:reset
+rake db:migrate:reset
+rake db:migrate:reset
+rails s -p1234
+rake db:migrate:reset
+rails s -p1234
+rake db:migrate:reset
+rails s -p1234
+rake db:migrate:reset
+rails s
+rails s -p123456789
+rails s -p6+
+rails s -p1234
+rake db:migrate:reset
+rails s -p1234
+rails s -p1234
+rails s -p1234
+rake db:migrate:reset
+rake db:seed
+rails s -p1234
+rake db:migrate:reset
+rake db:seed
+rake db:migrate:reset
+rails s -p1234
+rake db:migrate:reset
+rake db:seed
+rails s -p1234
+bundle
+rake db:migrate:reset
+rake db:seed
+rake db:seed
+rake db:seed
+rails s -p1234
+rake db:seed
+rails s -p1234
+rake db:seed
+rails s -p1234
+rake db:seed
+rake db:seed
+rake db:seed
+exit
+cd mplnew/
+rails s -p1234
+rails s -p1234
+rails s -p1234
+rake db:migrate:reset
+rails s -p1234
+rake db:migrate:reset
+rails s -p1234
+exit
+rails g paperclip score photo1,photo2,photo3,photo4,photo5
+rake db:migrate
+history
+rails g
+rails g paperclip
+rails g paperclip score photo1 photo2 photo3 photo4 photo5
+rake db:migrate
+rake db:migrate:reset
+rails g paperclip
+rails g paperclip Score photo1 photo2 photo3 photo4 photo5
+rails d paperclip score photo1 photo2 photo3 photo4 photo5
+rails g paperclip Score photo1 photo2 photo3 photo4 photo5
+exit
+cd work/newmj/
+git pull
+git pull
+rails s
+ssh root@166.78.24.248
+rails s
+cd 
+cd  /home/bhanu/.rvm/gems/ruby-1.9.3-p448/gems/activeadmin-0.6.3/app/views/active_admin/resource/
+ls
+exit
+cd
+ssh root@166.78.24.248
+exit
+bundle
+rails g paperclip score photo
+rake db:migrate
+rake assets:precompile RAILS_ENV=development
+rake db:migrate:reset
+rails c
+rake db:seed
+rake db:seed
+rake db:seed
+rails c
+rake db:seed
+rake db:seed
+rake db:seed
+pg_dump mplnew_development > mpldump.sql
+ls
+psql mplnew_development < mpldump.sql 
+exit
+cd
+cd mplnew/
+rails s -p1234
+rails g paperclip score photo1 photo2 photo3 photo4 photo5
+rake db:migrate
+rake db:migrate:reset
+rails s -p1234
+bundle update
+rails s -p1234
+rails s -p1234
+rails s -p1234
+fuser -k 1234/tcp
+rails s -p1234
+rails s -p1234
+bundle
+rails s
+rails s -p1234
+rails s -p1234
+rails s -p1234
+rake db:migrate:reset
+bundle update
+rails s -p1234
+bundle update
+rails s -p1234
+rake db:migrate:reset
+rake db:migrate:reset
+rails g
+rails g paperclip score photo
+rake db:migrate
+rails s -p1234
+rails tmp:clrear
+rake tmp:clear
+rails s 
+rake db:migrate:reset
+rails s
+rails s
+rails s
+rails s
+rails s
+rake db:migrate:reset
+rails s
+rake db:migrate:reset
+rails s
+rake db:migrate:reset
+rails s
+rake db:migrate:reset
+rails s
+rake db:migrate:reset
+rails s
+rake db:migrate:reset
+rails s
+cd
+cd mjmpl/
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/bhanu22776/mjmpl.git
+git remote add mpl https://github.com/bhanu22776/mjmpl.git
+git push -u mpl master
+heroku login
+1
+heroku login
+cd
+cd ~/.ssh
+ls -al
+ssh-keygen -t rsa -C "catchmenowin@gmail.com"
+ssh-keygen -t rsa -C "catchmenowin@gmail.com"
+ssh-add id_rsa
+ls
+gedit catchme.pub 
+cd
+cd mjmpl/
+heroku login
+heroku login
+heroku login
+heroku create -app "mjmpl"
+heroku apps:create mjmpl
+heroku apps:create mpl
+heroku apps:create mj_mpl
+heroku apps:create mplmj
+git push heroku master
+git push heroku master
+git push heroku master
+exit
+history
+exit
+cd mjmpl/
+heroku login
+git push heroku master
+git push heroku master
+git push heroku master
+git remote -v
+git push heroku master
+ sudo git push heroku master
+heroku login
+heroku apps:create mplmj
+git push heroku master
+git push heroku master
+exit
+cd .ssh/
+ls
+rm -rf *
+ls
+ls -la
+ssh-keygen -t rsa -C "bhanuprasadmende@gmail.com"
+gedit bhanu.pub 
+cd
+cd mjmpl/
+git status
+heroku login
+git push heroku master
+git push heroku master
+heroku keys:add ~/.ssh/id_rsa.pub
+heroku keys:add ~/.ssh/bhanu.pub
+git push heroku master
+heroku open
+heroku run rake db:migrate
+rake tmp:clear
+rails s
+heroku login
+heroku apps:create mjmpl
+git push heroku master
+heroku run rake db:migrate
+exit

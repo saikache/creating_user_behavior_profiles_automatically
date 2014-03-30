@@ -1,0 +1,242 @@
+rails -v
+rvm gemset use default
+rails -v
+rails new proj
+cd proj/
+rails s -p9900
+rails s -p9900
+cd
+rm -rf public/index.html 
+rails g
+rails generate devise:install
+rails generate devise user
+rail g devise:views
+rails g devise:views users
+rake db:create
+rake db:migrate
+rake routes
+rails g
+rails g devise:install
+rails g devise user
+rails g devise:views
+rake db:migrate
+rake routes
+rails g migration add_all_to_users firstname:string lastname:string number:string
+rake db:migrate
+rails g devise:views users
+rake db:mgrate
+rake db:mgirate
+rake db:migrate
+rails g scaffold post firstname:string lastname:string
+rake db:migrate
+cd ..
+git clone https://github.com/kwaghray/baba.git
+cd baba/
+rails s
+rails s -p9900
+bundle install
+rails s -p9900
+rake db:migrate
+rake db:create
+rake db:migrate
+rails s -p9900
+rails c
+cd ..
+cd baba
+rails c
+git status
+git add app/assets/stylesheets/application.css app/assets/stylesheets/bootstrap_and_overrides.css.less app/views/layouts/_login.html.erb app/views/layouts/application.html.erb config/routes.rb
+git commit -m "css files"
+git remote -v
+git push origin master
+cd
+cd DEsk
+cd Desktop/`
+exit
+;
+cd Desktop/
+cd newmj/
+rails s
+rake db:migrate
+history
+rails s
+mysql -uroot -pmaheshwari
+mysql -uroot -pmaheshwari mj_res < 17dump.sql 
+/etc/init.d/mysql start~~~~
+mysql
+rake db:drop
+mysql -uroot -p
+mysql -uroot -p
+mysql
+mysql
+cd ..
+rm -rf newmj/
+git clone https://github.com/maheshwarijagruth/newmj.git
+cd newmj/
+rails s
+bundle
+rails c
+mysql -uroot 
+mysql -uroot
+mysql -uroot -pmaheshwari mj_res < 17dump.sql 
+mysql -uroot -pmaheshwari mj_res < 17dump\(1\).sql 
+rails g scaffold welcome name:string number:integer
+rake db:create
+rake db:migrate
+rails c
+rails g
+rails generate devise:install
+rails generate devise welcome
+rails generate devise:views welcomes
+rake routes
+rake db:create
+rake db:migrate
+rake routes
+cd ..
+rm -rf proj/
+rails new proj
+cd proj/
+rails s
+rails s
+fuser -k 3000/tcp
+rails s
+rails s
+cd ..
+rm -rf pro
+rm -rf proj/
+rails new proj
+cd proj/
+rails s
+rails s
+rails s
+rails s
+rake db:migrate
+rails s
+ls
+cd De
+cd Desktop/
+ls
+cd kkkiphone/
+rails s
+cd 
+cd Desktop/
+cd newmj/
+railc
+rails c
+ssh root@166.78.24.248
+who.is www.movedge.com
+whois www.movedge.com
+ls
+cd ..
+sublime-text newmj/
+cd karthik_git/
+ls
+cd mj
+git remote -v
+rm -rf .git/
+git init
+git add .
+rake tmp:clear
+bundle exec rake:tmp:clear
+bundle
+bundle exec rake:tmp:clear
+bundle exec rake tmp:clear
+git add .
+git remote add origin https://github.com/maheshwarijagruth/oldmj.git
+git remote -v
+git push origin master
+git remote -v
+git push origin master
+git remote -v
+git commit -m "first"
+git push origin master
+cd ..
+ls
+cd maheshwari/
+git remote -v
+rm -rf .git/
+git remote add origin https://github.com/maheshwarijagruth/maheshwari.git
+git remote -v
+git init
+git remote -v
+git remote add origin https://github.com/maheshwarijagruth/maheshwari.git
+git remote -v
+git add .
+git commit -m "first"
+git push origin master
+cd ..
+ls
+cd ..
+ls
+sublime-text jagan.rb 
+ruby jagan.rb 
+ruby jagan.rb 
+ls
+ssh root@166.78.24.248
+cd 28jan/sss/
+bundle
+rails s
+rake db:migrate
+bundle
+rake db:migrate
+rake db:migrate
+ssh root@166.78.24.248
+cd 
+exit
+cd Desktop/
+ls
+cd newmj/
+git pull
+git pull
+rails s
+git status 
+git add app/views/static/aboutus.html.erb
+git commit -m "images"
+git push 
+exit
+git init
+git remote add origin https://github.com/maheshwarijagruth/unnathi.git
+cd
+cd
+rails c
+cd Desktop/newmj/
+rails c
+cd Desktop/
+rvm gemset use mj
+rails new user_behav
+sublime-text user_behav/
+cd user_behav/
+bundle
+rails g controller welcome index
+rm -rf public/index.html 
+rails s -p4000
+cde
+cd
+s
+ssh root@166.78.24.248
+cd 28jan/git/newmj
+rails s
+cd 
+cd Desktop/newmj/
+zeus s
+cd 28jan/
+ls
+ls
+cd newmj
+cd 
+cd Desktop/newmj/
+zeus s
+c
+cd
+zeus s
+zeus s
+cd ..
+git clone https://github.com/saikache/u_b.git
+cd u_b/
+bundle
+rails s -p4000
+ssh root@166.78.24.248
+cd  Desktop/
+ls
+cd newmj/
+cd ..

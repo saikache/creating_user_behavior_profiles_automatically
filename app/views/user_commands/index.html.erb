@@ -1,0 +1,27 @@
+<h1>Listing user_commands</h1>
+
+<table>
+  <tr>
+    <th>Uniq command</th>
+    <th>Frequency</th>
+    <th>History</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @user_commands.each do |user_command| %>
+  <tr>
+    <td><%= user_command.uniq_command %></td>
+    <td><%= user_command.frequency %></td>
+    <td><%= user_command.history_id %></td>
+    <td><%= link_to 'Show', user_command %></td>
+    <td><%= link_to 'Edit', edit_user_command_path(user_command) %></td>
+    <td><%= link_to 'Destroy', user_command, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New User command', new_user_command_path %>

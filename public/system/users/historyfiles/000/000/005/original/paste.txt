@@ -1,0 +1,2000 @@
+mysqldump -uroot -pmaheshwari mj 'ads' > mj_ads.sql
+mysqldump -uroot -pmaheshwari mj 'family_members' > mj_family_membes.sql
+mysqldump -uroot -pmaheshwari mj 'feedbackss' > mj_feedbacks.sql
+mysqldump -uroot -pmaheshwari mj 'feedbacks' > mj_feedbacks.sql
+mysqldump -uroot -pmaheshwari mj 'gender_notifications' > mj_gender_notifications.sql
+mysqldump -uroot -pmaheshwari mj 'mappings' > mj_mappings.sql
+mysqldump -uroot -pmaheshwari mj 'relations' > mj_relations.sql
+mysqldump -uroot -pmaheshwari mj 'relatives' > .sql
+mysqldump -uroot -pmaheshwari mj 'users' > mj_users.sql
+mysqldump -uroot -pmaheshwari mj 'users' > mj_videos.sql
+ls
+rm -rf 1oct.sql 3oct.sql 
+git pull
+git add db/schema.rb
+git commit -a -m "a"
+git pull
+git add app/admin/socials.rb app/admin/subads.rb app/assets/javascripts/socials.js.coffee app/assets/stylesheets/socials.css.scss app/controllers/socials_controller.rb app/models/social.rb app/models/subad.rb app/views/layouts/application.html.erb app/views/sessions/new.html.erb  app/views/socials/_form.html.erb app/views/socials/_newsheader.html.erb app/views/socials/edit.html.erb app/views/socials/index.html.erb app/views/socials/new.html.erb app/views/socials/show.html.erb app/views/users/new.html.erb app/views/users/sign_up.erb config/routes.rb db/migrate/20131005093040_create_socials.rb db/migrate/20131005093230_add_attachment_photo_to_socials.rb db/migrate/20131005093435_add_attachment_document_to_socials.rb db/migrate/20131005093656_create_subads.rb db/migrate/20131005093712_add_attachment_p1_p2_to_subads.rb db/schema.rb sub.sql
+git commit -a -m "added socials"
+git pull
+rake db:migrate
+rake db:migrate:reset
+ls
+rake db:migrate
+rake db:migrate:reset
+ls
+bundle
+rake db:drop
+rake db:create
+rake db:migrate
+ls
+cd db/
+ls
+cd migrate/
+ls
+nano 20131005093712_add_attachment_p1_p2_to_subads.rb
+cd ..
+rake db:migrate
+cd db/
+cd migrate/
+ls
+rm -rf 20131005093656_create_subads.rb 20131005093712_add_attachment_p1_p2_to_subads.rb
+ls
+cd ..
+rake db:migrate
+rake db:migrate:reset
+ls
+cd db/migrate/
+cd ..
+git pull
+git status 
+git rm db/migrate/20131005093656_create_subads.rb db/migrate/20131005093712_add_attachment_p1_p2_to_subads.rb
+git commit  -a -m "ss"
+git pull
+ls
+cd app/models/
+ls
+rm -rf subad.rb 
+cd ..
+rake db:migrate
+ls
+cd app/admin/
+ls
+rm -rf subads.rb 
+cd ..
+rake db:migrate
+ls
+mysql -uroot -pmaheshwari mj < 5oct.sql 
+rails g model subad name:string 
+rake db:migrate
+rails g paperclip subad p1 p2
+rake db:migrate:reset
+ls
+mysql -uroot -pmaheshwari mj < 5oct.sql 
+mysql -uroot -pmaheshwari mj < sub.sql 
+history 
+/etc/init.d/nginx restart
+nano  config/environments/development.rb 
+/etc/init.d/nginx restart
+rails c
+cd app/models/
+nano subad.rb 
+cd ..
+rails g active_admin:resource subad
+nano config/routes.rb 
+/etc/init.d/nginx restart
+ls
+rm -rf log/development.log 
+ls
+git pull
+git add db/schema.rb
+git commit -a -m "ada"
+git pull
+nano db/schema.rb 
+nano app/views/users/sign_up.erb 
+git add app/views/users/sign_up.erb db/schema.rb
+git commit  -a -m "sadf"
+git pull
+history 
+/etc/init.d/nginx restart
+nano  db/migrate/
+cd db/migrate/
+ls
+nano 20131005111552_add_attachment_p1_p2_to_subads.rb
+rake db:migrate:reset
+ls
+cd ..
+ls
+cd db/migrate/
+ls
+cd ..
+ls
+mysql -uroot -pmaheshwari mj < 5oct.sql 
+/etc/init.d/nginx restart
+ls
+cd app/models/
+ls
+rm -rf subad.rb 
+cd ..
+cd /home/karthik/mj
+ls
+nano  config/environments/development.rb 
+/etc/init.d/nginx restart
+cd /home/karthik/mj/
+ls =la
+ls -la
+git pull
+git status
+ls
+cd app/
+cd models/
+ls
+rm -rf post.rb 
+cd ..
+ls
+cd controllers/
+ls
+rm -rf posts_controller.rb
+cd ..
+ccd ..
+cd ..
+git push
+git pull
+git pulll
+git pull
+rake db:migrate:reset
+history
+/etc/init.d/nginx restart
+rake db:migrate:reset
+git pull
+rm 5oct.sql 
+git pull
+rake db:drop
+rake db:migrate
+rake db:create
+rake db:migrate
+history
+cd db/migrate/
+ls
+nano 20131005111435_create_subads.rb
+nano 20131005111552_add_attachment_p1_p2_to_subads.rb
+cd ..
+cd app/controllers/
+cd ..
+nano config/application.rb 
+cd config/
+ls -la
+cd ..
+rake db:migrate
+rake db:drop
+rake db:create
+rake db:setup
+nano app/models/subad.rb 
+rm -rf db/schema.rb 
+rake db:setup
+nano app/models/subad.rb 
+rake db:setup
+nano app/models/subad.rb 
+git pull
+cd app/models/
+ls
+git pull
+git rm app/admin/subads.rb
+git add app/admin/subads.rb app/models/subad.rb
+cd ..
+git add app/admin/subads.rb app/models/subad.rb
+git rm app/admin/subads.rb app/models/subad.rb
+git commit -a -m "subads delted"
+git pull
+mysql -uroot -pmaheshwari mj < 5oct.sql 
+rake db:migrate:reset
+rake db:drop
+rake db:create
+rake db:migrate
+git pull
+mysql -uroot -pmaheshwari mj < 5oct.sql 
+git pull
+cd home/
+ls
+history
+cd /home
+ls
+cd karthik/
+cd mj/
+ls
+git pull
+exit
+cd /home/karthik/mj/
+git pull
+exit
+cd /home/karthik/mj
+git pull
+cd /home/karthik/mj
+git pull
+exit
+cd /home/karthik/mj
+git pull
+ls
+git pull
+mysqldump -uroot -pmaheshwari mj > 8oct.sql
+cd /home/karthik/mj/
+git pull
+mysql -uroot -pmaheshwari mj < otheradsdump.sql 
+rake db:migrate
+cd db/migrate/
+ls
+rm -rf 20131005111435_create_subads.rb
+cd ..
+rake db:migrate
+cd db/migrate/
+ls
+rm -rf 20131005111552_add_attachment_p1_p2_to_subads.rb 
+lscd ..
+cd ..
+rake db:migrate
+cd /home/karthik/mj/
+git pull
+mysql -uroot -pmaheshwari mj < otherads.sql 
+rake db:migrate
+exit
+%cd /home
+cd /home
+ls
+cd k
+cd karthik/
+cd mj/
+git pull
+cd app/
+ls
+cd views/
+cd videos/
+ls
+nano index.html.erb 
+exit
+cd /home
+cd karthik/
+cd mj/
+cd app/
+cd views/
+cd videos/
+nano index.html.erb 
+exit
+cd /home/karthik/mj
+mysqldump -uroot -pmaheshwari mj > 10oct.sql
+git pull
+rm -rf 10oct.sql 
+git pull
+ls
+mysql -uroot -pmaheshwari mj < subadsdump.sql 
+ls
+cd config/
+ls
+cd environments/
+ls
+nano development.rb 
+cd ..
+history 
+nano config/environments/development.rb 
+cd /home/karthik/mj/
+git pull
+exit
+cd /home/karthik/mj
+git pull
+ls
+mysqldump -uroot -pmahswhari mj 'users' > user.sql
+mysqldump -uroot -pmaheshwari mj 'users' > user.sql
+
+ls
+git pull
+mysql -uroot -pmaheshwari mj < night.sql 
+history 
+/etc/init.d/nginx restart
+git pull
+nano config/routes.rb 
+/etc/init.d/nginx restart
+nano config/environments/development.rb 
+/etc/init.d/nginx restart
+nano  app/controllers/services_controller.rb 
+git pull
+git add config/routes.rb 
+git commit  -m -a "config"
+git add config/routes.rb
+git commit  -m -a "s"
+nano config/routes.rb 
+git pull
+git commit -m -a "adde"
+git commit -a -m "adde"
+git pull
+nano config/routes.rb 
+git add config/routes.rb
+git commit  -a -m "sar"
+git pull
+/etc/init.d/nginx restart
+git pull
+rails c
+git pull
+cd /home/karthik/mj/
+git pull
+exit
+cd /home/karthik/mj/
+git pull
+exit
+cd /home/karthik/mj
+ls
+mysqldump -uroot -pmaheshwari mj > 18oct.sql
+git pull
+cd /home/karthik/mj/
+git pull
+exir
+exit
+cd /home/karthik/mj/
+git pull
+git pul
+git pull
+ls
+cd app/views/
+cd home/
+ls
+cd ..
+git pull
+cd /home/karthik/MJ
+cd /home/karthik/mj
+mysqldump -uroot -pmaheshwari mj > 24.sql
+ls
+rm -rf 18oct.sql 
+ls
+rm -rf 10oct.sql 
+rm -rf 24.sql 
+ls
+rm -rf 5oct.sql 
+ls
+rm -rf 8oct.sql 
+ls
+rm -rf mj_ads.sql 
+rm -rf mj.sql 
+ls
+rm -rf nano.save 
+rm -rf sub
+ls
+mysqldump -uroot -pmaheshwari mj > 24oct.sql
+ls
+cd
+exit
+cd /home/karthik/mj
+git pull
+cd /home/karthik/mj
+git pull
+exit
+cd /home/karthik/mj
+ls
+mysqldump -uroot -pmaheshwari mj > 25oct.sql
+git pull
+nano mj.sql 
+mysql -uroot -pmaheshwari mj < mj.sql 
+rails c
+cd /home/karthik/mj
+ls
+mysql -uroot -pmaheshwari mj < 25oct.sql 
+mysql -uroot -pmaheshwari mj < mj.sql 
+rails c
+git pull
+history 
+git pull
+ls
+mysql -uroot -pmaheshwari mj < 25oct.sql 
+history 
+/etc/init.d/nginx restart
+history 
+git pull
+ls
+mysql -uroot -pmaheshwari mj < mj.sql 
+/etc/init.d/nginx restart
+history 
+git pull
+mysql -uroot -pmaheshwari mj < 25oct.sql 
+/etc/init.d/nginx restart
+exit
+cd /home/karthik/mj
+ls
+git pull
+git rm 25oct.sql
+git pull
+ls
+rm -rf 25oct.sql 
+git pull
+rm -rf mj_mappings.sql 
+git pull
+git rm 10oct.sql 5oct.sql mj.sql mj_fm.sql mj_gn.sql mj_mappings.sql night.sql sub.sql
+git rm  5oct.sql mj.sql mj_fm.sql mj_gn.sql mj_mappings.sql night.sql sub.sql
+git rm  mj.sql mj_fm.sql mj_gn.sql mj_mappings.sql night.sql sub.sql
+git rm  mj_fm.sql mj_gn.sql mj_mappings.sql night.sql sub.sql
+git pull
+git add app/controllers/family_members_controller.rb 
+git commit  -a -m "family controller server add opp"
+git pull
+nano  app/controllers/family_members_controller.rb 
+ls
+mysql -uroot -pmaheshwari mj <26oct.sql 
+nano config
+cd config/
+ls
+cd initializers/
+ls
+cd ..
+cd environments/
+ls
+nano development.rb 
+cd ..
+history 
+/etc/init.d/nginx restart
+cd /home/karthik/mj
+rails c
+ls
+cd log/
+ls
+rm -rf development.log 
+ls
+cd ..
+ls
+history 
+cd log/
+ls
+cd ..
+rails c
+nano app/controllers/family_members_controller.rb 
+cd ..
+cd /home/karthik/mj
+ls
+cd
+ls
+cd /home/karthik/mj/
+git pull
+exit
+cd /home/karthik/mj/
+ls -la
+git pull
+la
+rm -r f 
+rm -rf otherads.sql u.sql user.sql subadsdump.sql sai.sql mj_family_membes.sql mj_feedbacks.sql mj_gender_notifications.sql mj_posts.sql mj_relations.sql mj_relatives.sql mj_users.sql mj_videos.sql otherads.sql
+ls
+la
+ls -la
+la
+rm - rf advertises_ads.sql 24oct.sql
+rm -rf advertises_ads.sql 24oct.sql
+la
+git pull
+exit
+cd /home/karthik/mj/
+git pull
+exit
+cd /home/
+cd karthik/mj/
+git pull
+exit
+cd /home/karthik/mj/
+git pull
+exit
+cd /home/karthik/mj
+git pull
+exti
+exitl
+exti
+exit
+cd /home/karthik/mj
+mysqldump -uroot -pmaheshwari mj > 6nov.sql
+ls
+git pull
+mysql -uroot -pmaheshwari mj < 6november.sql 
+history 
+/etc/init.d/nginx restart
+gitpull
+git pull
+cd /home/karthik/mj
+git pull
+exit
+cd /home/karthik/mj
+git pull
+eixt
+exit
+cd /home/karthik/mj/
+git pull
+nano app/views/videos/index.html.erb
+git add app/views/videos/index.html.erb
+git commit -a -m "resolved videos conflict"
+git pull
+exit
+cd /home/karthik/mj
+git pull
+if config
+history 
+ls
+git pull
+exit
+cd /home
+ls
+cd karthik/
+ls
+cd mj/
+ls
+git pull
+exit
+cd /home/karthik/mj/
+git pull
+bundle
+treee
+tree
+rails g 
+rails g ckeditor:install
+rake db:migrate
+histroy
+history 
+/etc/init.d/nginx restart
+exit
+cd /home/karthik/mj
+git pull
+mysqldump -uroot -pmaheshwari mj > 13nov.sql
+ls
+exit
+cd /home
+cd karthik/
+cd mj/
+git pull
+exit
+cd /home/karthik/mj
+git pull
+exit
+cd /home/karthik/mj
+git pull
+exit
+cd /home/karthik/mj/
+git pull
+exit
+cd /home/karthik/mj/
+mysqldump -uroot -pmaheshwari mj 'users' > newusers.sql
+mysqldump -uroot -pmaheshwari mj > all.sql
+ls
+nano all.sql 
+ls
+rm -rf all.sql newusers.sql 
+ls
+mysqldump -uroot -pmaheshwari mj > mjuser.sql
+ls
+nano mjuser.sql 
+exit
+cd /home/karthik/mj
+ls
+git pull
+ls
+mysql -uroot -pmaheshwari mj < nov262.sql 
+history 
+/etc/init.d/nginx restart
+exit
+cd /home/karthik/mj
+history 
+mysqldump -uroot -pmaheshwari mj > 13nov.sql
+ls
+mysqldump -uroot -pmaheshwari mj > nov22.sql
+cd /home/karthik/mj/
+ls
+git pull
+mysql -uroot -pmaheshwari mj < nov278.sql 
+history 
+/etc/init.d/nginx restart
+exit
+ls
+cd /home/karthik/mj/
+ls
+git pull
+history 
+exit
+cd /home/karthik/mj/
+git pull
+mysql -uroot -pmaheshwari mj < nov25.sql 
+history 
+/etc/init.d/nginx restart
+exit
+cd /home/karthik/mj/
+git pull
+ls
+mysql -uroot -pmaheshwari mj <nov25.sql 
+history
+/etc/init.d/nginx restart
+exit
+cd /home/karthik/mj
+nano app/controllers/family_members_controller.rb 
+vi app/controllers/family_members_controller.rb 
+cd
+exit
+cd /home/karthik/mj
+git pull
+exit
+cd /home/karthik/mj/
+git pull
+mysql -uroot -pmaheshwari mj <nov27.sql 
+history
+/etc/init.d/nginx restart
+exit
+cd /home/karthik/mj/
+git pull
+mysql -uroot -pmaheshwari mj <nov27.sql 
+/etc/init.d/nginx restart
+exit
+cd /home/karthik/mj
+ls
+mysql -uroot -pmaheshwari mj > 28november.sql
+mysqldump -uroot -pmaheshwari mj > 28november.sql 
+history 
+exit
+cd /home/karthik/mj
+ls
+mysqldump -uroot -pmaheshwari mj > sai.sql
+ls
+exit
+rvm gemset tlist
+rvm gemset list
+which ruby
+ruby -v
+rails  -v
+ls
+cd /
+;s
+ls
+cd home
+ls
+cd karthik/
+ls
+git clone https://github.com/saikache/newmj.git
+cd newmj/
+ls
+bundle
+exit
+ls
+cd /
+ls
+cd hom
+cd home
+ls
+cd karthik/r
+cd karthik/
+ls
+cd newmj/
+bundle
+vi config/database.yml 
+rake db:create
+git pull
+ls
+mysql -uroot -pmaheshwari mj_res <db.sql 
+rails c
+rails s 
+ps -la
+ls
+cd /
+ls
+cd home
+lls
+ls
+cd newmj/
+rails s 
+ps aux | grep -i passenger
+kill ps 6206
+kill pid 6206
+kill pid 829
+kill pid 889
+kill pid 884
+kill -9 6206
+kill -9 884
+kill -9 889
+ps aux | grep -i nginx
+kill -9 37356
+kill -9  9384
+kill -9  925
+kill -9  6434
+ps aux | grep -i nginx
+kill -9 6488
+kill -9 6480
+passenger start
+passenger start -p 80
+ps aux | grep -i 80
+kill -9 26804
+kill -9 12401
+kill -9 5857
+exit
+ls
+cd /home/karthik/newmj/
+ls
+rails g paperclip socials socialphoto
+history
+/etc/init.d/nginx restart
+cd /home/karthik/
+ls
+cd newmj/
+cd db
+ls
+cd migrate/
+ls
+cd ..
+git pull
+history 
+rake db:migrate
+ls
+cd db
+cd migrate/
+ls
+nano 20131129200856_add_attachment_socialphoto_to_socials.rb 
+nano  20131130014726_add_attachment_socialphoto_to_socials.rb 
+nano 20131129200856_add_attachment_socialphoto_to_socials.rb 
+nano  20131130014726_add_attachment_socialphoto_to_socials.rb 
+rm -rf 20131129200856_add_attachment_socialphoto_to_socials.rb 
+cd ..
+rake db:migrate
+/etc/init.d/nginx restart
+git status 
+git pull
+nano config/database.yml 
+;s
+ls
+cd /
+ls
+cd home/
+ls
+cd karthik/
+ls
+cd newmj/
+nano config/routes.rb 
+nano config/database.yml 
+ls
+history 
+rails c
+ls
+cd /home/karthik/newmj/
+rails g paperclip socials socialphoto
+cd db/
+ls
+cd migrate/
+l
+rm -rf 20131129184403_add_hexa_to_user.rb
+cd 
+rake db:migrate
+cd /home/karthik/newmj/
+rake db:migrate
+git pull
+cd /home/karthik/
+ls
+cd mj
+ls
+rails c
+cd ..
+cd newmj/
+rails c
+nano config/environments/development.rb 
+df -h
+uname -a
+
+ps -ef 
+ps -ef | grep passenger 
+ps -ef | grep mysql
+top -u
+top -a
+help top
+man top
+rails s -p3000 
+git pull
+git add app/views/layouts/_logo_images.html.erb app/views/videos/edit.html.erb config/environments/development.rb
+git commit  -a -m "added send grid"
+git pull
+rails s -p3000 
+rails s -p3000
+rails s -d -p3000 
+cd /home/karthik/newmj/
+git pull
+git add config/routes.rb
+sudo service nginx restart
+ls
+vi config/routes.rb 
+vi app/views/layouts/_footer.html.erb 
+vi config/routes.rb 
+history
+git status
+git pull
+git status
+git add config/routes.rb
+git pull
+sudo service nginx restart
+ls
+git pull
+git status
+cd /home/karthik/newmj/
+git pull
+git add config/routes.rb
+git commit -a -m "server commit"
+git pull
+exit
+cd /home/karthik/newmj/
+ls
+nano  config/routes.rb 
+history 
+sudo service nginx restart
+exit
+cd /home/karthik/
+ls
+cd newmj/
+ls
+nano  config/database.yml 
+ls
+nano  config/database.yml 
+ls
+git status 
+git add 30hexdump.sql
+git commit  -a -m "30hex all tables"
+git push
+cd /home/karthik/
+ls
+cd newmj/
+history 
+sudo service nginx restart
+cd /home/karthik/mj/
+nano config/database.yml 
+la
+hostory
+history 
+mysqldump -uroot -pmaheshwari mj 'socials' > chankya.sql
+nano chankya.sql 
+rm -rf chankya.sql 
+exit
+cd /home/karthik/newmj/
+git pull
+cd db/migrate/
+ls
+rm -rf 20131130014726_add_attachment_socialphoto_to_socials.rb 
+cd ..
+history 
+rails g paperclip socials socialphoto
+rake db:migrate
+nano db/migrate/
+nano db/migrate/20131127120712_add_hexa_to_users.rb 
+sudo service nginx restart
+cd db
+ls
+cd migrate/
+ls
+cd /home/
+ls
+cd karthik/
+ls
+cd newmj/
+ls
+history 
+ls
+cd
+exit
+cd /home/karthik/newmj/
+git pull
+ls
+nano config/database.yml 
+rails c
+git pull
+eixt
+exit
+ls
+exit
+cd /home/karthik/newmj/
+git pull
+cd /home
+ls
+cd karthik/
+ls
+cd newmj/
+git pull
+exit
+cd /home/karthik/newmj/
+git pull
+cd /home/karthik/newmj/
+git pull
+exit
+cd /home/karthik/newmj/
+ls
+git pull
+git status 
+ls
+exit
+cd /home/karthik/newmj/
+ls
+git pull
+mysql -uroot -pmaheshwari mj_res < onlysocial.sql 
+ls
+cd db/
+cd migrate/
+ls
+rm -rf 20131130182010_add_attachment_socialphoto_to_socials.rb
+rails g paperclip socials socialphoto
+rake db:migrate
+mysql -uroot -pmaheshwari mj_res < onlysocial.sql 
+cd ..
+mysql -uroot -pmaheshwari mj_res < onlysocial.sql 
+git pull
+nano config/database.yml 
+mysqldump -uroot -pmaheshwari mj_res > 3dec.sql
+ls
+git pull
+ls
+git pull
+exit
+cd /home/karthik/newmj/
+git pull
+rails c
+cd /home/karthik/newmj/
+exit
+cd /home/karthik/newmj/
+ls
+cd /home
+ls
+cd karthik/
+ls
+cd newmj/
+git pull
+exit
+cd /home/
+cd karthik/
+ls
+cd newmj/
+ls
+git remote -v
+git remote rm origin master
+git remote -v
+git remote rm origin 
+git remote -v
+git remote add https://github.com/maheshwarijagruth/newmj.git
+git remote -v
+git remote add origin https://github.com/maheshwarijagruth/newmj.git
+git remote -v
+git status 
+git pull
+git pull origin 
+git pull origin master
+nano README.rdoc 
+git add README.rdoc
+git commit  -a -m "added readme.doc"
+git pull origin 
+git pull origin master
+exit
+cd /home/karthik/mj/
+git pull
+git remote -v
+cd ..
+cd newmj/
+git pull
+git pull origin master
+rails c
+ls
+git pull origin master
+rails c
+git pull origin master
+rails c
+exit
+cd /home/karthik/newmj/
+ls
+exit
+cd /home/karthik/newmj/
+git pull
+git pull origin master
+ls
+git pull origin master
+exit
+cd /home/karthik/newmj/
+git pull
+git pull origin master
+rails c
+cd /home/
+ls
+cd karthik/newmj/
+git pull
+git pull origin master
+cd /home/karthik/newmj/
+rails c
+cd /home/karthik/newmj/
+git pull origin master
+history 
+sudo service nginx restart
+lls
+ls
+cd ..
+ls
+chmod 777 newmj/
+ls
+cd newmj/
+ls
+ls -la
+sudo service nginx restart
+git pull origin master
+sudo service nginx restart
+ls
+cd tmp/cache/assets/D1C/550/
+ls
+rm -rf sprockets%2F2a77c6e9dc94155e625acaa87907c582 
+cd ..
+ls
+cd 550/
+ls
+cd ..
+cd /home/karthik/newmj/
+history 
+/etc/init.d/nginx restart
+cd /home/
+cd karthik/
+ls
+cd newmj/
+git pull
+git pull origin master
+exit
+cd /home/
+cd karthik/
+cd newmj/
+git pull origin master
+exit
+cd /home/karthik/newmj/
+git pull origin master
+exit
+cd /home/
+cd karthik/newmj/
+ls
+mysql -uroot -pmaheshwari mj_res > dec16.sql
+mysqldump -uroot -pmaheshwari mj_res > dec16.sql
+ls
+git pull origin  master
+mysql -uroot -pmaheshwari mj_res < dec16.sql
+cd /home/karthik/newmj/
+git pull origin master
+bundle install
+nano Gemfile
+cd /home/
+cd karthik/
+ls
+cd newmj/
+ls
+nano config/database.yml 
+mysqldump -uroot -pmaheshwari mj_res 'users' > usersdumpd18-dec.sql
+ls
+mysqldump -uroot -pmaheshwari mj_res 'family_members' > fmmbrsdumpd18-dec.sql
+ls
+exit
+cd /home/karthik/newmj/
+history 
+ls
+cd log/
+ls
+rm -rf development.log 
+cd ..
+cd log/
+ls
+cd ..
+cd log/
+ls
+cd ..
+git pull origin master
+cd log/
+ls
+cd ..
+cd
+exit
+cd /home/karthik/newmj/
+cd config/
+;s
+ls
+cd environments/
+ls
+nano development.rb 
+cd ..
+histroy
+history 
+/etc/init.d/nginx restart
+gitpull
+git pull
+git pull origin master
+exit
+cd /home/karthik/newmj/
+git pull origin master
+exiyt
+exit
+cd /home/karthik/newmj/
+rails c
+ls
+exit
+cd /home/karthik/newmj/
+rails c
+exit
+cd /home/karthik/newmj/
+git pull origin  master
+exit
+cd /home/karthik/newmj/
+git pull origin master
+ls
+cd log/
+ls
+cd ..
+cd
+exit
+cd /home/karthik/newmj/
+git pull origin master
+exit
+cd /home/karthik/newmj/
+git pull origin master
+git pull
+git pull origin master
+ls
+exti
+exit
+cd /home/karthik/newmj/
+mysqldump -uroot -pmaheshwari mj_res > old_dec_25.sql
+cd /home/karthik/newmj/
+git pull origin master
+cd /home/karthik/newmj/
+ls
+mysqldump -uroot -pmaheshwari mj_res > 28s_dese.sql
+ls
+git pull origin master
+ls
+nano config/database.yml 
+cd /home/karthik/newmj/
+git pull origin master
+cd /home/karthik/newmj/
+ls
+mysqldump -uroot -pmaheshwari mj_res > jan1_backup.sql
+ls
+git pull origin master
+mysql -uroot -pmaheshwari mj_res < jan1.sql 
+git pull origin master
+exit
+cd /home/karthik/newmj/
+git pull origin master
+mysql -uroot -pmaheshwari mj_res < jan1.sql 
+git pull 
+git pull origin master
+cd /home
+ls
+cd karthik/
+ls
+cd newmj/
+git pull
+exit
+cd /home/karthik/newmj/
+git pull origin master
+cd /home/karthik/newmj/
+git pull origin master
+cd
+exit
+cd /home/karthik/newmj/
+git pull origin master
+xit
+exit
+cd /home/karthik/
+ls
+cd newmj/
+git pull
+git pull origin master
+exit
+cd /home/karthik/newmj/
+mysqldump -uroot -pmaheshwari mj_res > jan6.sql
+ls
+rm -rf jan6.sql 
+exit
+cd /home/karthik/newmj/
+git pull origin master
+exit
+cd /home/karthik/newmj/
+git pull origin master
+exit
+ls
+/home/karthik/newmj/
+cd /home/karthik/newmj/
+git pull origin master
+exit
+cd /home/karthik/newmj/
+git pull origin master
+rake db:migrate
+cd db
+cd migrate/
+ls
+nano 20131203070038_add_attachment_socialphoto_to_socials.rb
+cd ..
+rake db:migrate
+nano 20131203070038_add_attachment_socialphoto_to_socials.rb
+cd db/migrate/
+nano 20131203070038_add_attachment_socialphoto_to_socials.rb
+
+rake db:migrate
+git pull origin master
+exit
+ls
+cd /home/
+ls
+cd karthik/
+cd newmj/
+git fetch
+exit
+cd /home/karthik/newmj/
+git pull origin master
+exit
+cd /home/karthik/newmj/
+git pull origin master
+exit
+cd /home/karthik/newmj/
+git pull 
+git pull origin master 
+exit
+cd /home/
+cd karthik/
+cd newmj/
+git fetch
+git pull origin master
+exit
+cd /home/karthik/newmj/
+git pull origin master
+exit
+cd /home/karthik/newmj/
+git pull origin master
+exit
+cd /home/
+cd karthik/
+cd newmj/
+rails c
+cd /home/
+cd karthik/
+cd newmj/
+rails c
+pwd
+ls
+cd /home/karthik/newmj/
+ls
+mysqldump -uroot -pmaheshwari mj_res>16jan.sql
+ls
+rails c
+exit
+cd /home/
+cd karthik/
+cd newmj/
+git pull origin master
+exit
+cd /home/karthik/newmj/
+ls
+mysqldump -uroot -pmaheshwari mj_res > 17jan.sql
+ls
+exit
+cd /home/
+cd karthik/
+cd newmj/
+mysqldump -uroot -pmaheshwari mj_res"all" > 18janu.sql
+mysqldump -uroot -pmaheshwari mj_res "all" > 18janu.sql
+mysqldump -uroot -pmaheshwari mj_res  > 18janu.sql
+ls
+exit
+cd /home/
+cd karthik/
+cd newmj/
+mysql -uroot -pmaheshwari mj_res "all" > 18jan.sql
+ls
+cd /home/
+cd karthik/
+cd newmj/
+exit
+cd /home/karthik/newmj/
+git pull origin  master
+git pull origin master
+ls
+cd app/assets/stylesheets/
+ls
+cd ..
+git pull origin master
+cd
+exit
+cd /home/
+cd karthik/
+cd newmj/
+git pull origin master
+exit
+cd /home/karthik/newmj/
+git pull origin master
+exit
+cd /home/karthik/newmj/
+git pull
+git pull origin master
+exit
+cd /home/karthik/newmj/
+mysqldump -uroot -pmaheshwari mj_res > 21jan.sql
+exit
+cd /home/karthik/newmj/
+git pull origin master
+mysql -uroot -pmaheshwari mj_res < 21connect.sql 
+ls
+cd app/assets/images/connect/
+ls
+cd
+cd /home/karthik/newmj/
+rake -T
+rake assets:precompile
+RAILS_ENV=development bundle exec rake assets:precompile
+exit
+cd /home/karthik/newmj/
+git pull origin master
+exit
+cd /home/karthik/newmj/
+git pull origin master
+RAILS_ENV=development bundle exec rake assets:precompile
+exit
+cd /home/karthik/newmj/
+ls
+git pull origin master
+cd /home/karthik/newmj/
+history 
+/etc/init.d/nginx restart
+rake tmp:clear
+git pull origin master
+git pull origin mastger
+git pull origin master
+git pull origin  master
+nano config/environments/development.rb 
+history 
+/etc/init.d/nginx restart
+nano config/environments/development.rb 
+/etc/init.d/nginx restart
+nano config/environments/development.rb 
+history
+nano config/environments/development.rb 
+/etc/init.d/nginx restart
+nano config/environments/development.rb 
+ls -la
+cd config/environments/
+ld
+cd ..
+ls
+cd environments/
+ls
+ls -la
+nano development.rb 
+chmod -R 777 development.rb 
+nano development.rb 
+ls -la
+cd ..
+/etc/init.d/nginx restart
+exit
+cd /home/karthik/newmj/
+git fetch
+git pull
+git fetch master 
+git fetch origin master
+git pull origin master
+nano app/views/ads/edit.html.erb 
+git fetch origin master
+git pull
+git pull origin master
+cd /home/karthik/newmj/
+git pull origin master
+exit
+cd /home/karthik/newmj/
+git pull origin master
+exit
+cd /home/
+cd karthik/
+cd newmj/
+git pull origin master
+exit
+cd /home/
+cd karthik/
+cd newmj/
+git pull origin master
+exit
+cd /home/
+cd karthik/
+cd newmj/
+git pull origin master
+exit
+cd /home/
+cd karthik/
+cd newmj/
+git pull origin master
+exit
+cd /home/karthik/newmj/
+mysqldump -uroot -pmaheshwari mj_res > 26jan.sql
+ls
+exit
+cd /home/karthik/newmj/
+git pull origin master
+exit
+cd /home/karthik/newmj/
+mysqldump -uroot -pmaheshwari mj_res > 28jan.sql
+exit
+git pull origin master
+cd /home/karthik/newmj/
+git pull origin master
+bundle
+rake db:migrate
+history 
+/etc/init.d/nginx restart
+rails g
+rails g rich:install
+rake db:migrate
+/etc/init.d/nginx restart
+nano config/environments/development.rb 
+/etc/init.d/nginx restart
+bundle update
+/etc/init.d/nginx restart
+nano log/development.log 
+/etc/init.d/nginx restart
+nano config/routes.rb 
+nano Gemfile
+nano config/initializers/rich.rb 
+/etc/init.d/nginx start
+/etc/init.d/nginx restart
+ls -la
+rm -rf 16jan.sql 17jan.sql 18jan.sql 18janu.sql 21connect.sql 21jan.sql 3dec.sql dec16.sql fmmbrsdumpd18-dec.sql  jan1_backup.sql old_dec_25.sql usersdumpd18-dec.sql  u.sql 
+ls -la
+nano config/routes.rb 
+/etc/init.d/nginx restart
+nano config/routes.rb 
+/etc/init.d/nginx restart
+history 
+RAILS_ENV=development bundle exec rake assets:precompile
+/etc/init.d/nginx restart
+nano config/routes.rb 
+git pull origin master
+/etc/init.d/nginx restart
+nano config/routes.rb 
+nano app/assets/javascripts/active_admin.js 
+RAILS_ENV=development bundle exec rake assets:precompile
+nano app/admin/connect.rb 
+/etc/init.d/nginx restart
+git pull origin master
+/etc/init.d/nginx restart
+cd public/assets/ckeditor
+;s
+ls
+nano application.
+nano application.js
+cd ..
+rake tmp:clear
+/etc/init.d/nginx restart
+nano app/assets/stylesheets/rich/editor.css 
+bundle
+nano config/environments/development.rb 
+/etc/init.d/nginx restart
+exit
+sysinfo
+exit
+cd /home/karthik/newmj/
+git pull
+git pull origin master
+git add config/routes.rb config/environments/development.rb Gemfile.lock db/schema.rb
+git commit -m -a "server commit"
+git commit -a -m "server commit"
+git pull origin master
+nano config/routes.rb 
+nano db/schema.rb 
+git add config/routes.rb db/schema.rb
+git commit -m -a "commit server last"
+git commit -a -m "commit server last"
+git pull origin master
+exit
+cd /home/karthik/newmj/
+ls -la
+history 
+cd ..
+chmod 777 newmj/
+cd newmj/
+ls
+ls -la
+/etc/init.d/nginx restart
+ls -la
+chown -R karthik 
+cd ..
+chown -R karthik 
+chmod 777
+chmod 777 -R newmj/
+cd newmj/
+ls -la
+/etc/init.d/nginx restart
+exit
+cd /home/karthik/newmj/
+git pull origin master
+git add app/views/user_mailer/verification_email.html.erb
+git commit -a -m "server commmit"
+git pull origin master
+exit
+ls
+cd /home/karthik/newmj/
+ls
+git pull origin master
+exit
+cd /home/karthik/newmj/
+ls
+mysqldump -uroot -pmaheshwari mj_res > 29jan.sql
+ls
+git pull origin master
+ls
+git pull origin master
+cd config/
+ls
+nano database.yml 
+cd environments/
+ls
+nano development.rb 
+nano rou
+ls
+cd ..
+nano routes.rb 
+exit
+cd /home/karthik/newmj/
+ls
+exit
+cd /home/karthik/newmj/
+git pull
+git pull origin master
+exit
+cd /home/karthik/newmj/
+git pull origin master
+nano config/routes.rb 
+git add config/routes.rb
+git commit -a -m "resolved conflict rich"
+git pull origin master
+rake db:migrate
+exit
+cd /home/karthik/newmj/
+/etc/init.d/nginx restart
+history 
+RAILS_ENV=development bundle exec rake assets:precompile
+/etc/init.d/nginx restart\
+/etc/init.d/nginx restart
+exit
+cd /home/karthik/newmj/
+rake tmp:clear
+exit
+cd /home/karthik/newmj/
+git pull origin master
+cd /home/
+cd karthik/
+cd newmj/
+git pull origin master
+cd /home/karthik/newmj/
+ls
+git pull origin master
+cd /home/karthik/newmj/
+ls
+mysqldump -uroot -pmaheshwari mj_res > 30jan.sql
+ls
+git pull origin master
+exit
+cd /home/karthik/newmj/
+git pull
+git pull origin master
+exit
+cd /home/karthik/newmj/
+git pull origin master
+ls
+rm -rf 29jan.sql 
+ls
+rm -rf 28jan.sql 
+ls
+exit
+cd /home/karthik/newmj/
+git pull origin master
+exit
+cd /home/karthik/newmj/
+git pull origin master
+exit
+cd /home/karthik/newmj/
+git pull
+git pull origin master
+exit
+cd /home/karthik/newmj/
+ls
+mysqldump -uroot -pmaheshwari mj_res > 1st.sql
+cd /home/karthik/newmj/
+Forum
+rails c
+cd /home/karthik/newmj/
+ls
+mysqldump -uroot -pmaheshwari mj_res > 1hour.sql
+ls
+git pull origin master
+history 
+RAILS_ENV=development bundle exec rake assets:precompile
+git pull origin master
+RAILS_ENV=development bundle exec rake assets:precompile
+git pull origin master
+rake tmp:clear
+git pull origin master
+ls
+mysqldump -uroot -pmaheshwari mj_res > 1097jan.sql
+cd /home/karthik/newmj/
+git pull origin master
+history 
+git pull origin master
+ls
+cd /home/karthik/newmj/
+history 
+rake tmp:clear
+git pull origin master
+cd /home/karthik/newmj/
+mysql -uroot -pmaheshwari mj_res < 3.feb.sql
+mysql -uroot -pmaheshwari mj_res < 3feb.sql
+mysqldump -uroot -pmaheshwari mj_res > 3feb.sql
+ls
+exit
+git pull origin master
+ls
+cd /home/karthik/newmj/
+git pull origin master
+history
+nano app/assets/javascripts/Citystate.js 
+history 
+/etc/init.d/nginx restart
+RAILS_ENV=development bundle exec rake assets:precompile
+/etc/init.d/nginx restart
+exit
+cd /home/karthik/newmj/
+rake tmp:clear
+ls
+exit
+cd /home/karthik/newmj/
+git pull origin master
+rake db:migrate
+history 
+/etc/init.d/nginx restart
+cd /home/karthik/newmj/
+git pull origin master
+cd /home/karthik/newmj/
+git pull origin master
+exit
+cd /home/karthik/newmj/
+mysqldump -uroot -pmaheshwari mj_res > 6jan.sql
+ls
+rm rf 1097jan.sql 1hour.sql 30jan.sql 3feb.sql 
+rm -rf 1097jan.sql 1hour.sql 30jan.sql 3feb.sql 
+ls
+rm -rf 1st.sql 
+ls
+cd /home/karthik/newmj/
+git pull origin master
+history 
+/etc/init.d/nginx restart
+nano config/environments/development.rb 
+/etc/init.d/nginx restart
+ls
+cd config/
+ls
+cd ..
+nano config/routes.rb 
+exit
+ls
+cd /home/karthik/newmj/
+git pull origin master
+exit
+cd /home/karthik/newmj/
+git pull origin master
+git add app/views/static/count.html.erb app/views/layouts/application.html.erb app/controllers/static_controller.rb config/routes.rb
+git commit -a -m "added unmerged files"
+git pull origin master
+git push origin master
+exit
+cd /home/
+cd karthik/newmj/
+git pull origin master
+exit
+cd /home/karthik/newmj/
+git pull origin master
+git pull
+git pull origin master
+cd /home/karthik/newmj/
+mysqldump -uroot -pmaheshwari mj_res > 8feb.sql
+ls
+rm -rf 26jan.sql 28s_dese.sql 6jan.sql 
+ls
+exit
+cd /home/karthik/newmj/
+git pull origin master
+rake db:migrate
+history
+git pull origin master
+cd /home/karthik/newmj/
+git pull origin master
+exit
+cd /home/karthik/newmj/
+mysqldump -uroot -pmaheshwari mj_res > 11feb.sql
+ls
+exit
+cd /home/karthik/newmj/
+git pull origin master
+history
+/etc/init.d/nginx restart
+exit
+cd /home/karthik/newmj/
+git pull origin master
+exit
+cd /home/karthik/newmj/
+git pull origin master
+history
+git pull origin master
+/etc/init.d/nginx restart
+history 
+RAILS_ENV=development bundle exec rake assets:precompile
+git pull origin master
+RAILS_ENV=development bundle exec rake assets:precompile
+rake tmp:clear
+/etc/init.d/nginx restart
+git pull origin master
+exit
+cd /home/karthik/newmj/exit
+cd /home/karthik/newmj/
+git pull origin master
+exit
+cd /home/karthik/newmj/
+git pull origin master
+git status 
+exit
+cd /home/karthik/newmj/
+git pull origin master
+cd /home/karthik/newmj/
+git pull origin master
+rails c
+exit
+cd /home/karthik/newmj/
+git pull origin master
+git pull
+git pull origin master
+rake db:migrate
+history
+/etc/init.d/nginx restart
+nano app/views/family_members/member_request_notifications.erb 
+vi app/views/family_members/member_request_notifications.erb 
+cd /home/karthik/newmj/
+git pull origin master
+git add app/views/family_members/member_request_notifications.erb
+git commit -a -m "notifications"
+git pull
+git pull origin master
+/etc/init.d/nginx restart
+exit
+cd /home/karthik/newmj/
+ls
+rm -rf 8feb.sql 11feb.sql 
+ls
+mysqldump -uroot -pmaheshwari mj_res > 13feb.sql
+ls
+cd log/
+ls
+exit
+cd /home/
+cd karthik/
+cd newmj/
+git pull origin master
+rake db:migrate
+cd /home/karthik/newmj/
+rails c
+exit
+cd /home/karthik/newmj/
+git pull origin master
+exit
+cd /home/karthik/newmj/
+git pull origin master
+rake db:migrate
+git pull origin master
+exit
+cd /home/
+cd karthik/
+cd newmj/
+ls
+mysqldump -uroot -pmaheshwari mj_res > 15feb.sql
+ls
+exit
+cd /home/karthik/newmj/
+git pull origin master
+exit
+cd /home/karthik/newmj/
+git pull
+git pull origin master
+cd /home/karthik/newmj/
+git pull origin master
+ls
+git pull origin master
+rake db:migrate
+history
+/etc/init.d/nginx restart
+git pull origin master
+cd /home/karthik/newmj/
+git pull origin master
+exit
+cd /home/karthik/newmj/
+rm -rf log/development.log
+ls
+cd log/
+ls
+ls -la
+cd 
+cd /home/karthik/
+cd newmj/
+ls -la
+cd .gitignore
+nano .gitignore 
+ls
+rm -rf 13feb.sql 15feb.sql 
+ls
+history 
+mysqldump -uroot -pmaheshari mj_res > 17dump.sql
+mysqldump -uroot -pmaheshwari mj_res > 17dump.sql
+;ls
+ls
+cd ..
+chmod -R 777 newmj/
+cd newmj/
+ls -la
+cd log/
+ls
+nano production.log 
+ls
+touch development.log
+ls -la
+cd ..
+chmod -R 777 newmj/
+cd lo
+cd newmj/
+cd log/
+ls
+nano development.log
+cd ..
+history 
+/etc/init.d/nginx restart
+ls
+cd log/
+ls
+nano development.log
+cd ..
+git pull origin master
+cd log/
+ls
+nano development.log
+cd ..
+la
+chmod 0666 log/development.log
+ls
+cd log/
+ls
+ls -la
+nano development.log
+ls -la
+/etc/init.d/nginx restart
+nano development.log
+ls- la
+ls -la
+ls- la
+ls -la
+cd ..
+rm -rf log/development.log
+la
+ls -la
+cd log/
+ls
+ls -la
+cd ..
+/etc/init.d/nginx restart
+exit
+cd /home/karthik/newmj/
+git pull origin master
+nano app/views/ads/freelist.html.erb
+git pull origin master
+nano app/views/ads/freelist.html.erb
+vi app/views/ads/freelist.html.erb
+git add app/views/ads/freelist.html.erb
+git commit -a -m "freelist form changed"
+git pull origin master
+nano app/views/ads/freelist.html.erb
+git add app/views/ads/freelist.html.erb
+git commit -a -m "freelist form changed"
+git pull origin master
+cd log/
+ls
+nano development.log
+exit
+cd /home/karthik/newmj/
+git pull origin master
+exit
+cd /home/karthik/newmj/
+ls
+git pull origin master
+ls
+mysql -uroot -pmaheshwari mj_res 'Relation' < mj_relations.sql
+exit
+cd /home/karthik/newmj/
+mysqldump -uroot -pmaheshwari mj_res > 1404dump.sql
+exit
+cd /home/karthik/
+cd newmj/
+ls
+history 
+/etc/init.d/nginx restart
+exit
+cd /home/karthik/newmj/
+ls
+mysqldump -uroot -pmaheshwari mj_res > 20thfeb.sql
+exit
+cd /home/karthik/
+cd newmj/
+ls
+nano mj_relations.sql 
+mysql -uroot -pmaheshwari mj_res < mj_relations.sql 
+rm -rf 20thfeb.sql 
+mysqldump -uroot -pmaheshwari mj_res > 20thfeb.sql
+ls
+exit
+cd /home/karthik/newmj/
+git pull origin master
+CD ..
+cd ..
+ls
+cd mj
+ls
+cd app/
+ls
+cd views/
+ls
+cd family_members/
+ls
+nano family.erb 
+cd ..
+cd ne
+cd ..
+cd newmj/
+git pull origin master
+cd /home/
+cd karthik/
+cd newmj/
+git pull origin master
+rake db:migrate
+history
+/etc/init.d/nginx restart
+exit
+cd /home/karthik/newmj/
+git pull origin master
+exit
+cd /home/karthik/newmj/
+git pull origin master
+nano app/views/ads/freelist.html.erb
+git add app/views/ads/freelist.html.erb
+git commit -a -m "conflict"
+git pull origin master
+rake db:migrate
+history
+/etc/init.d/nginx restart
+exit
+cd /home/karthik/newmj/
+git pull origin master
+exit
+cd /home/karthik/newmj/
+git pull origin master
+cd /home/karthik/newmj/
+git pull origin master
+history
+RAILS_ENV=development bundle exec rake assets:precompile
+cd /home/karthik/newmj/
+rake tmp:clear
+ls
+exit
+cd /home/karthik/newmj/
+history
+rake tmp:clear
+exit
+cd /home/karthik/newmj/
+git pull origin master
+exit
+cd /home/karthik/newmj/
+git pull origin master
+exit
+cd /home/karthik/newmj/
+git pull
+git pull origin master
+history
+exit
+cd /home/karthik/newmj/
+git pull origin master
+exit
+cd /home/karthik/newmj/
+git pull origin master
+exit

@@ -1,0 +1,500 @@
+rvm gemset use sanpo
+gem list
+rvm gemset list
+rvm gemset use family
+gem list
+rvm list
+rvm use ree
+rails -v
+rvm gemset list
+gem list
+rvm gemset use global
+gem list
+rvm list
+rvm use ruby-2.0.0-p195
+rvm gemset list
+gem list
+bundle
+rvm gemset list
+rvm list
+exit
+cd Desktop/
+ls
+cd MyMinister/
+ls
+rvm gemset lisst
+rvm gemset list
+bundle
+bundle
+rails g 
+rvm list
+rake -T
+bundle
+rails s
+rvm list
+rvm use ree
+rvm gemset create mymini
+rvm gemset use mymini
+bundle
+rails 
+rails s
+bundle
+bundle
+bundle
+bundle
+bundle update rails
+bundle update
+bundle
+bundle update rails
+bundle update rails
+bundle
+bundle
+bundle
+bundle
+cd ..
+cd MyMinister/
+bundle
+rails s
+rails s -p 3001
+rails s -p 3001
+rails s
+exit
+rvm gemset list
+exit
+cd elogic
+cd ..
+cd elogica
+sudo reboot
+cd ..
+cd 
+cd Music/
+ls
+cd fakirbaba/
+rvm gemset use 3.2.13
+rails -v
+rails s
+rails s
+cd
+gedit .ssh/id_rsa.pub
+git push -f heroku
+exit
+bundle
+unicorn
+unicorn
+unicorn
+unicorn
+unicorn
+unicorn
+unicorn
+git init
+git add .
+git commit -m "updated"
+heroku git:remote -a sirftelangana
+git remote -v
+git push -f heroku
+heroku restart
+heroku open
+ heroku run rake db:migrate
+ heroku restart
+heroku logs --tail
+heroku run rake db:migrate
+heroku run rake db:reset
+heroku run rake db:migrate
+exit
+cd logica
+lls
+ls
+cd sirftelangana/
+bundle
+rails s
+rake db:create
+rails generate social_stream:install
+rake db:migrate
+bundle
+rake db:migrate
+rails s -p 3002
+bundle
+rails g active_admin:install
+rake db:migrate
+rails s  -p 4000
+rails g bootstrap:instal
+rails g bootstrap:install
+rails s -p  4000
+bundle
+bundle
+rails g bootstrap:layout
+rails g controller static home about contact team sayings 
+exit
+cd logica/
+ls
+cd sirftelangana/
+rails s
+rails s
+sudo reboot
+ls
+cd logica
+ls
+cd sirftelangana/
+rails 
+rails s
+cd ..
+ls
+rails -v
+sudo apt-get install libxml2-dev libxslt-dev libmagickcore-dev libmagickwand-dev libmysqlclient-dev libsqlite3-dev imagemagick libsndfile1-dev
+cd ..
+cd
+cd Music/
+git clone https://github.com/nov/fb_graph_sample.git
+ls
+cd fb_graph_sample/
+ls
+rvm gemset list
+rvm gemset list
+rvm gemset use 3213
+bundle
+gem install fb_graph
+rake db:migrate
+rails s -p  4000
+exit
+gem install fb_graph
+irb
+irb
+exit
+cd ..
+cd
+ls
+gedit fb_graph.rb
+exit
+ruby fb_graph.rb
+rvm gemset use 3213
+irb
+rvm gemset use 3213
+ruby fb_graph.rb
+ruby fb_graph.rb
+ruby fb_graph.rb
+ruby fb_graph.rb
+ruby fb_graph.rb
+ruby fb_graph.rb
+ruby fb_graph.rb
+ruby fb_graph.rb
+ruby fb_graph.rb
+ruby fb_graph.rb
+rails -v
+cd Music/
+rails new kunal_fbgraph
+cd kunal_fbgraph/
+bundle
+gedit Gemfile
+rails g devise:install
+bundle
+exit
+cd logica/
+ls
+cd ..
+cd Desktop/
+mkdir logica
+cd logica/
+rvm gemset use stg
+rails -v
+rails new sirftelangana
+cd sirftelangana/
+bundle
+rvm list
+rvm --rvmrc --create use ruby-1.9.3-p194@stg
+cd ..
+cd sirftelangana/
+bundle
+bundle
+rails generate social_stream:install
+rake db:create
+bundle
+rails generate social_stream:install
+rails g 
+social_stream:linkser:install
+rails g social_stream:linkser:install
+rails  g social_stream:oauth2_server:install
+rake db:migrate
+rails s  -p  4000
+bundle
+rails s  -p  4000
+bundle
+bundle update jquery-rails
+unicorn
+unicorn
+unicorn
+unicorn
+unicorn
+unicorn
+rails s
+rails s
+rails s
+rails s
+rails s
+rake assets:precompile RAILS_ENV=production
+rake db:create:all
+rake assets:precompile RAILS_ENV=production
+exit
+cd ..
+cd ~/Music/
+ls
+git clone https://github.com/openstreetmap/openstreetmap-website.git
+cd openstreetmap-website/
+rvm gemset create openmaps
+rvm gemset use openmaps
+bundle
+ls
+cd db
+l
+ls
+cd ..
+cp config/example.application.yml config/application.yml
+cp config/example.database.yml config/database.yml
+bundle
+rake db:create
+rake db:migrate
+rake db:migrate
+rails s  -p  4000
+exit
+cd 
+cd Music/
+cd openstreetmap-website/
+rvm gemset use openmaps
+rails s -p  4000
+exit
+cd .
+cd ~/Videos/
+ls
+cd rajkishan-geocodeltk-954fe8c/
+ls
+gedit Gemfile
+rvm gemset use 3.2.13
+bundle
+bundle
+rails s  -p 4005
+rake db:creat
+rake db:create
+rake db:create
+mysql -u root -p
+mysql -u root -p
+rake db:create
+rake db:create
+rake db:create
+rake db:create
+mysql -u root -p 
+mysql -u root -p 
+rails s
+rails s --p 4003
+rails s -p 4003
+rails s -p 4003
+bundle
+bundle
+rails s -p 4003
+rake db:create
+rake db:create
+rake db:create
+rake db:create
+rake db:create
+rake db:migrate
+rake db:migrate
+bundle
+rake db:migrate
+rake db:create
+rake db:migrate
+rake db:migrate
+bundle
+rake db:create
+gedit config/database.yml
+rake db:migrate
+rails s  -p 4003
+rails s  -p 4003
+mysql
+mysql -u root -p
+rake db:create
+ls
+cd Desktop/
+ls
+ls -la
+cd getapundit/
+ls
+cd app
+ls
+cd models/
+ls
+cd ..
+cd .
+cd ..
+rvm gemset lst
+rvm gemset list
+bundle
+rails s
+bundle
+rake db:migrate
+rails g migration AddColumnsToUsers provider uid
+rake db:migrate
+rails c
+gem install gmaps4rails
+irb
+gem install geocoder
+irb
+irb
+rails s
+rails s
+rails s
+bundke
+bundle
+rails s
+bundle
+rails -v
+rails c
+exit
+bundle
+rails g migration AddColumnsToUsers provider uid
+bundle
+rails s
+rails s
+rails s
+rails s
+rails s
+rails s
+rails g add_user_id_to_user_profiles user_id:integer
+rails g migration add_user_id_to_user_profiles user_id:integer
+rake db:migrate
+rails g paperclip user photo
+rails g scaffold address h_no:string street:string city:string state:string country:string pin_code:string 
+rake db:migrate
+rails g add_details_to_addresses user_id:integer temple_id:integer puja_store_id:integer
+rails g migration add_details_to_addresses user_id:integer temple_id:integer puja_store_id:integer
+rake db:migrate
+rails c
+rails g migration add_latlog_to_addresses latitude:float longitude:float
+rake db:migrate
+bundle
+rails c
+rails c
+24.193.83.1
+irb
+irb
+gem install geocoder
+irb
+rails g
+rails g geocoder:config
+rails g geocoder:config
+rails g gmaps4rails:copy_js
+rails s
+bundle
+rails s
+exit
+sudo restart
+sudo poweroff
+cd Desktop/
+ls
+cd getapundit/
+rvm gemset list
+rails -v
+rails s
+gedit app/controllers/addresses_controller.rb 
+rails s
+rails s
+rails s
+rails s  -p 4000
+sudo restart
+sudo reboot
+rails c
+cheat mongo
+mongo
+which nodejs
+
+sudo reboot
+cd Desktop/
+cd getapundit/
+rails s
+cd ..
+sudo poweroff
+sudo poweroff
+rvm gemset list
+rails gemset use 3.2.13
+rvm gemset list
+rvm gemset use 3213
+rails -v
+exit
+ruby fb_graph.rb
+ruby fb_graph.rb
+ruby fb_graph.rb
+ruby fb_graph.rb
+ruby fb_graph.rb
+ruby fb_graph.rb
+ruby fb_graph.rb
+ruby fb_graph.rb
+ruby fb_graph.rb
+ruby fb_graph.rb
+ruby fb_graph.rb
+ruby fb_graph.rb
+ruby fb_graph.rb
+ruby fb_graph.rb
+ruby fb_graph.rb
+ruby fb_graph.rb
+ruby fb_graph.rb
+ruby fb_graph.rb
+ruby fb_graph.rb
+ruby fb_graph.rb
+ruby fb_graph.rb
+ruby fb_graph.rb
+ruby fb_graph.rb
+ruby fb_graph.rb
+ruby fb_graph.rb
+cd  Desktop/
+ls
+cd getapundit/
+rvm gemset list
+rails s
+exit
+rails -v
+rails -v
+cd logica/
+ls
+rails new telangana
+cd ..
+ls
+ruby fb_graph.rb
+gem install fb_graph
+irb
+ruby fb_graph.rb
+ruby fb-graph.rb
+ruby fb-graph.rb
+ruby fb_graph.rb
+irb
+irb
+cd Desktop/
+ruby get_pages.rb 
+ruby get_pages.rb 
+ruby get_pages.rb 
+ruby get_pages.rb 
+ruby get_pages.rb 
+ruby get_pages.rb 
+irb
+ls
+cd ..
+cd logica/
+ls
+cd telangana/
+gedit Gemfile
+bundle
+rails g 4
+rails g 
+rails g bootstrap:install
+rails g bootstrap:layout
+rails g devise:install
+rails g devise user
+rake db:migrate
+rails g migration AddColumnsToUsers provider:string uid:string
+bundle
+rake db:migratw
+rake db:migrate
+rake db:migrate
+rake db:migrate
+rake db:migrate
+rake db:migrate
+rake db:migrate
+bundle
+rails s
+sudo reboot

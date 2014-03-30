@@ -1,0 +1,11 @@
+<h3>Update uniq commands</h3>
+<table border="1">
+<% @h.each do |k,v| %>
+	<tr>
+  	<td><%= k %></td>
+			<% bb= k.gsub("\n","") %>
+			<%	UserCommand.create(:uniq_command => bb,:frequency => v,:history_id => params[:id])%>
+  	<td><%= v %></td> 
+ </tr>
+<%end%>
+</table>

@@ -1,0 +1,29 @@
+<%= form_for(@user_command) do |f| %>
+  <% if @user_command.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@user_command.errors.count, "error") %> prohibited this user_command from being saved:</h2>
+
+      <ul>
+      <% @user_command.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :uniq_command %><br />
+    <%= f.text_field :uniq_command %>
+  </div>
+  <div class="field">
+    <%= f.label :frequency %><br />
+    <%= f.number_field :frequency %>
+  </div>
+  <div class="field">
+    <%= f.label :history_id %><br />
+    <%= f.number_field :history_id %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

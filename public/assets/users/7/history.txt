@@ -1,0 +1,500 @@
+git commit -m "connetc length truncate"
+git push
+cd 28jan/
+cd m/
+cd ..
+cd sai/
+rails s 
+rails s 
+rails g
+rails g bootstrap:install
+rails g bootstrap:layout
+rails s 
+rails s 
+bundle
+rails g model identity name:string email:string password_digest:string
+rake db:migrate
+rails s
+rails s
+rails s
+rails g controller home index
+bundle
+rails g scaffold user name:string email:string password:string
+rake db:migarte
+rake db:migrate
+bundle
+rake routes
+rake routes
+rake routes
+rake routes
+bundle update rake
+rake routes
+rails g controller authentication
+cd ..
+cd google_auth/
+cd google/
+bundle
+rake db:migrate
+bundle exec rake db:migrate
+rails s
+rake db:seed
+bundle update
+rake db:seed
+rails s
+cd 28jan/
+ls
+cd Untitled\ Folder/
+git status 
+ls
+cd newmj/
+git status 
+git pull 
+git pull 
+zeus startr
+zeus start
+zeus start
+zeus s
+zeus s
+zeus s
+zeus c
+zeus c
+zeus c
+rails g scaffold sai email:string
+zeus c
+ifconfig 
+ls
+rake db:seed
+rake db:migrate
+rake db:seed
+irb
+ssh root@166.78.24.248
+ruby sar.rb 
+ruby sar.rb 
+ruby sar.rb 
+ruby sar.rb 
+ruby sar.rb 
+ruby sar.rb 
+ruby sar.rb 
+ruby sar.rb 
+ruby sar.rb 
+ruby sar.rb 
+ruby sar.rb 
+ruby sar.rb 
+ruby sar.rb 
+ruby sar.rb 
+ruby sar.rb 
+ruby sar.rb 
+ruby sar.rb 
+ruby sar.rb 
+ruby sar.rb 
+ruby sar.rb 
+ruby sar.rb 
+ruby sar.rb 
+ruby sar.rb 
+ruby sar.rb 
+ruby sar.rb 
+ruby sar.rb 
+ruby sar.rb 
+ruby sar.rb 
+ruby sar.rb 
+ruby sar.rb 
+ruby sar.rb 
+ruby sar.rb 
+ruby sar.rb 
+ruby sar.rb 
+cd
+touch jagan.rb
+sublime-text jagan.rb 
+ruby jagan.rb 
+ruby jagan.rb 
+ruby jagan.rb 
+nano sai.txt 
+ls
+sublime-text s.rb 
+ruby jagan.rb 
+cd 28jan/Untitled\ Folder/
+ls
+cd newmj
+ls
+ruby sar.rb 
+sublime-text sar.rb 
+sublime-text sar.rb 
+sublime-text sar.rb 
+ruby sar.rb 
+ruby sar.rb 
+ruby sar.rb 
+cd
+ruby jagan.rb 
+ruby jagan.rb 
+ruby jagan.rb 
+ruby jagan.rb 
+exit
+exit
+cd 28jan/Untitled\ Folder/
+ls
+cd newmj
+git status 
+zeus start
+zues c
+zeus c
+cd 
+cd Desktop/
+cd elogicweb/
+bundle
+ls
+ls
+sublime-text sar.rb
+history 
+history 
+~/.bash_history
+sublime-text ~/.bash_history
+ruby sai.rb
+ls
+ruby sar.rb 
+~/.bash_history
+sublime-text ~/.bash_history
+ruby sar.rb 
+ruby sar.rb 
+irb
+ruby sar.rb 
+ruby sar.rb 
+ruby sar.rb 
+ruby sar.rb 
+ruby sar.rb 
+ruby sar.rb 
+ruby sar.rb 
+ruby sar.rb 
+ruby sar.rb 
+ruby sar.rb 
+ruby sar.rb 
+ruby sar.rb 
+ruby sar.rb .
+ruby sar.rb .
+ruby sar.rb .
+ruby sar.rb .
+ruby sar.rb .
+ruby sar.rb .
+ruby sar.rb .
+ruby sar.rb .
+irb
+cd
+ruby jagan.rb 
+cd 
+cd 28jan/Untitled\ Folder/
+ls
+cd
+cd Desktop/
+cd picasa/
+rails  s -p3009
+rails s
+fuser -k 3000/tcp
+rails s
+rails s
+rails s
+rails s
+rails s
+rails s
+rails c
+cd ..
+ls
+cd Untitled\ Folder/
+ls
+cd newmj/
+git status 
+git pull 
+ls
+rails s -p 4000
+git status 
+git add app/controllers/static_controller.rb app/views/layouts/application.html.erb config/routes.rb app/views/static/count.html.erb
+git commit -m "added home_page count.html"
+git pull
+git push
+ssh root@166.78.24.248
+git pull origin master
+ssh root@166.78.24.248
+nano config/database.yml 
+git status 
+cd ..
+cd Untitled\ Folder/
+cd newmj/
+git status 
+git status 
+git pull 
+rails s -p4000
+exit
+exit
+cd 28jan/
+ls
+cd Untitled\ Folder/
+ls
+cd newmj
+git status 
+zeus start
+zeus s
+cd ..
+cd Untitled\ Folder/
+ls
+cd newmj/
+git status 
+git pull 
+git status 
+git add Gemfile.lock
+git commit  -m "gem.loc"
+git pull 
+git pull
+git status 
+git pull
+cd ..
+sublime-text newmj/
+rails c 
+rails c 
+cd
+cd Desktop/
+git clone https://github.com/dhenze/picasa.git
+cd picasa/
+bundle
+nano Gemfile
+bundle
+rails s -p4090
+cd ..
+sublime-text picasa/
+cd picasa/
+rails s -p1111
+rails s -p1111
+rails s -p1111
+cd ..
+git clone https://github.com/googleplus/gplus-verifytoken-ruby.git
+cd gplus-verifytoken-ruby/
+nano Gemfile 
+bundle
+ruby verify.rb 
+ruby verify.rb 
+ruby verify.rb 
+ruby verify.rb 
+ruby verify.rb 
+ruby verify.rb 
+ruby verify.rb 
+ruby verify.rb 
+ruby verify.rb 
+cd
+cd Desktop/
+ls
+cd picasa/
+rails  s
+cd ..
+git clone https://github.com/chanakyacool/picasa-rails.git
+cd picasa-rails/
+bundle
+nano Gemfile
+bundle
+bundle update
+rake db:migrate
+rails g
+rails s
+rails s
+rails g
+rails g
+rake tmp:clear
+rake db:migrate
+rake db:create
+rake db:migrate
+rake db:migrate
+bundle exec rake db:migrate
+bundle exec rake db:migrate
+rake db:migrate
+bundle
+rake db:migrate
+bundle
+rake db:migrate
+bundle
+bundle
+rake db:migrate
+rake db:migrate
+rake db:migrate
+rails c
+cd ..
+git clone https://github.com/eugenci/Dr-Picasa.git
+cd Dr-Picasa/
+bundle
+nano config
+ls
+cd config/
+ls
+cd ..
+rake db:create
+rails s -p3440
+rails s -p3440
+rails s -p3440
+cd
+gem install picasa-ruby
+rails c
+rails -v
+cd 28jan/newmj/
+rails  -v
+gem install picasa-ruby
+gem install picasa-ruby
+rails c
+nano Gemfile
+bundle
+rails c
+cd
+cd Desktop/
+git clone https://github.com/xymor/picasa-rails.git
+cd picasa-rails/
+bundle
+rake db:migrate
+bundle exec rake db:migrate
+rails  s -p4000
+rails  s -p4000
+rails  s 
+rails  s 
+rails  s 
+rails  s 
+rails  s 
+rails  s 
+rails  s 
+rails  s 
+rails  s 
+rails  s 
+rails s -p4009
+ls
+cd newmj/
+rails s -p4009
+git status 
+git add app/admin/connect.rb app/views/connects/index.html.erb app/views/static/count.html.erb
+git commit -m "added art galery"
+git pull
+git push
+ssh root@166.78.24.248
+killall firefox
+exit
+git push origin master
+git pull 
+git pull 
+rake db:migrate
+exit
+ssh root@166.78.24.248
+cd 28jan/Untitled\ Folder/
+ls
+cd newmj/
+git status 
+cd ..
+cd Untitled\ Folder/
+ls
+cd newmj/
+git status 
+git pull 
+git pull 
+cd ..
+ls
+cd ..
+ls
+cd newmj/
+git status 
+git status 
+cd 
+mkdir chan
+cd chan/
+git clone https://github.com/maheshwarijagruth/newmj.git
+ls 
+cd newmj/
+rails s
+rails s
+rails s
+exit
+gem install language-translator
+cd 28jan/newmj/
+gem install language-translator
+rails c
+postgres
+sudo -su postgres
+sudo su postgres -padmin
+ifconfig
+ifconfig
+ipconfig/forwerd/release
+cd ..
+git clone https://github.com/tesserakt/Google-Translate-Rails-App.git
+cd Google-Translate-Rails-App/
+cd ..
+sublime-text Google-Translate-Rails-App/
+cd Google-Translate-Rails-App/
+bundle
+rake db:migrate
+rake db:migrate
+bundle exec rake db:migrate
+rake db:migrate
+sudo gem install ruby-debug19
+bundle
+bundle update
+rake db:migrate
+cd 28jan/Google-Translate-Rails-App/
+rake db:migrate
+rake db:migrate
+bundle
+rake db:migrate
+sudo gem uninstall 
+sudo gem uninstall ruby-debug19
+rake db:migrate
+cd 28jan/Untitled\ Folder/
+ls
+cd newmj/
+git status 
+cd ..
+cd Untitled\ Folder/
+ls
+cd newmj/
+git status 
+git pull 
+git pull
+exit
+cd 28jan/Untitled\ Folder/Untitled\ Folder/
+ls
+cd newmj/
+ls
+mysql -uroot -pmaheshwari mj_res < 11feb.sql 
+zeus start
+cd
+exit
+git status 
+git pull 
+git status 
+cd ..
+cd ..
+ls
+cd ..
+rm -rf Untitled\ Folder/
+ls
+cd ..
+ls
+cd 28jan/
+ls
+rm -rf 1_newmj/
+rm -rf newmj/
+ls
+cd git/
+ls
+cd newmj/
+git status 
+git pull
+git pull
+rm -rf Gemfile.lock  db/schema.rb 
+git pull
+git pull
+ls
+git pull
+cd ..
+sublime-text newmj/
+cd newmj/
+mysql -uroot -pmaheshwari mj_res < 11feb.sql 
+zeus s
+zeus s
+zeus s
+zeus s
+cd
+mkdir karthik_git
+cd karthik_git/
+ls
+git clone https://github.com/karthikkrishnamurthi/maheshwari.git
+git clone https://github.com/karthikkrishnamurthi/mj.git
+cd
+ls

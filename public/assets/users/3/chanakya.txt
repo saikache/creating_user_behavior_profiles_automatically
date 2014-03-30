@@ -1,0 +1,500 @@
+heroku keys:add
+git push heroku master
+ssh-add
+git push heroku master
+git remote rm heroku
+git remote add git@heroku.com:seemandhracinemas.git
+git remote add heroku git@heroku.com:seemandhracinemas.git
+git push heroku master
+heroku open
+heroku run bundle install
+heroku run rake db:create
+RAILS_ENV= developement rake assets:precompile
+RAILS_ENV= development rake assets:precompile
+heroku run RAILS_ENV= production rake assets:precompile
+heroku run RAILS_ENV= developement rake assets:precompile
+heroku run RAILS_ENV= production bundle exec rake assets:precompile
+git status 
+git add config/environments/development.rb
+git commit -m "false"
+git push origin master
+git push heroku master
+heroku run rake db:migrate
+heroku run RAILS_ENV=production bundle exec rake assets:precompile
+heroku run RAILS_ENV=development bundle exec rake assets:precompile
+heroku run RAILS_ENV=production bundle exec rake assets:precompile
+git status 
+git stauts
+git status
+git add app/views/layouts/application.html.erb
+git commit -m "meta"
+git push origin master
+git config --global user.name "Chanakya Devraj"
+git config --global user.email "devrajchanakya@gmail.com"
+git push origin master
+git push heroku master
+rails c
+ssh root@166.78.24.248
+ssh root@166.78.24.248
+git pull
+git pull
+git stash 
+git pull
+ssh root@166.78.24.248
+mysql -uroot -pmaheshwari mj_res < 20thfeb.sql 
+git pull
+ssh root@166.78.24.248
+git pull
+cd seemandhracinemas/
+rails s
+rvm gemset use rails3
+rails s
+d 
+cd 
+cd office/newmj/
+rails s
+rails s
+rails c
+ls
+mysql -uroot -pmaheshwari mj_res < mj_relations.sql 
+ls
+rm -rf 20thfeb.sql 
+git status 
+git stash drop
+git status
+git add app/assets/javascripts/Citystate.js
+git commit -m "city acending order"
+git pull
+git pull
+git push origin master
+git pull
+rake db:migrate
+bundle
+git pull
+rails c
+git status 
+git status 
+git add app/admin/family_members.rb
+git commit -m "family member admin"
+git pull
+git push 
+git push 
+git status 
+git status 
+git add app/views/ads/show.html.erb
+git commit -m "free ads"
+git pull
+git push
+ssh://action@apne1.nitrousbox.com:17312
+ssh root action@apne1.nitrousbox.com:17312
+ssh root @apne1.nitrousbox.com:17312
+cd office/newmj/
+git pull
+rails s
+rails s
+cd 
+cd Desktop/
+cd images/
+git init
+git remote add origin https://github.com/maheshwarijagruth/images.git 
+git add .
+git commit -m "images back up newmj"
+git push origin master
+cd 
+cd Desktop/
+rm -rf images/
+cd office/newmj/
+git pull
+rails s
+git status
+git add app/views/static/sms.html.erb
+git add app/assets/images/sms1.png
+git commit -m "loc changed sms1"
+git pull
+git pull
+git push
+git rm app/assets/images/logos/ app/assets/images/connect/ app/assets/images/mjads/ app/assets/images/services/
+git rm -r app/assets/images/logos/ app/assets/images/connect/ app/assets/images/mjads/ app/assets/images/services/
+git commit -m "deleted unused images"
+git push
+cd  app/assets/images/
+git rm aboutus.jpeg ajmer.jpg alwar.jpg BALLOON.gif bharatpur.jpg bikaner.jpg btn_bg.jpg bundi.jpg chittorgarh.jpg down_arrow.png download.jpg education.jpg fb.jpg image.jpg images.jpg jaipur.jpg jaisalmer.jpg jaisamand.jpg job.jpg jodhpur.jpg karauli.jpg kota.jpg kumbhalgarh.jpg  linkedin.png loader.gif marriage.png mjblog.png mountabu.jpg nagaur.jpg newsbg.jpg orange.jpg  pg_s_01.jpg pg_s_02.jpg pg_s_03.jpg pg_s_04.jpg pg_s_05.jpg pg_s_06.jpg pg_s_07.jpg pushkar.jpg rajsamand.jpg ranthambore.jpg samode.jpg sawaimadhopur.jpg service_banner.jpg shekhawati.jpg texture.jpg texture.png twitter.jpg udaipur.jpg workfromhome.jpg 
+cd ..
+git commit -m "deleted scrap"
+git push 
+cd 
+cd office/newmj/
+rais s
+rails s
+sudo aptitude install graphviz
+bundke
+bundle
+rake erd
+git pull
+git pull
+cd 
+cd office/newmj/
+git pull
+rails s
+rails s
+git pull
+rails s
+git pull
+rails ]
+rails s
+git status 
+git add app/views/videos/index.html.erb
+git commit -m "mpl"
+git pull
+git push
+git push
+git status
+git add app/views/static/aboutus.html.erb
+git commit -m "new cricket"
+git pull
+git pull
+git push
+cd ..
+cd newmj/
+rake db:migrte
+rake db:migrate
+git pull
+rake db:migrate
+cd office/newmj/
+rils s
+rials s
+rails s
+mysqldump -uroot -pmaheshwari mj_res > newftree.sql
+git pull
+git stash 
+git pull
+git stash drop 
+mysql -uroot -p
+cd office/
+ls
+cd newmj/
+rails s
+git pull
+git pull
+git pull
+git pull
+git pull
+ssh root@166.78.24.248
+ssh root@166.78.24.248
+git pull
+git status
+git add app/views/family_members/_family_member.erb
+git commit -m "tooltip"
+git pull
+git push
+cd office/newmj/
+git status 
+rails s
+mysql -uroot -pmaheshwari mj_res 
+mysql -uroot -pmaheshwari mj_res 
+cd office/
+ls
+rails -v
+rails new cricket
+cd cricket/
+cd ..
+git clone https://github.com/nachiket-synerzip/scoreboard.git
+cd scoreboard/
+firefox index.html 
+cd ..
+rm -rf scoreboard/
+rails g model Team teamname:string
+cd cricket/
+rails g model Team teamname:string
+rails g model Player team_id:integer playername:string
+rails g BattingLine team_id:integer player_id:integer runs:integer fours:integer sixes:integer status:string total:integer
+rails model g BattingLine team_id:integer player_id:integer runs:integer fours:integer sixes:integer status:string total:integer
+rails g model BattingLine team_id:integer player_id:integer runs:integer fours:integer sixes:integer status:string total:integer
+rails g model BowlingLine team_id:integer player_id:integer overs:float noball:integer wides:integer wickets:integer runs:intger
+rake db:migrate
+rake db:migrate
+rake routes
+rake routes
+rm -rf public/index.html 
+rails s
+rails s
+rails s
+rails s
+rails s
+rake routes
+reload!
+rails g model Player playername:string references:team
+rake db:drop
+rake db:drop
+rails g model Player playername:string references:team
+rails g BowlingLine bowlername:string overs:integer noball
+rails g model BowlingLine bowlername:string overs:integer noball:integer runs:integer wickets:integer wides:integer team:references player:references
+rails g model BattingLine playername:string runs:integer sixes:integer fours:integer status:string total:integer references:team references:player
+rails g model BattingLine playername:string runs:integer sixes:integer fours:integer status:string total:integer team:references player:references
+rake db:migrate:reset
+rake db:migrate:reset
+rake db:migrate
+rake db:migrate:reset
+git init
+git add .
+git commit -m "first"
+git remote add origin https://github.com/chanakyacool/cricket.git
+git push origin master
+rake routes
+rake routes
+rake routes
+rails c
+cd office/mpl/
+rails s
+rake db:schema:load
+rake db:schema:load
+rails s
+rails c
+rake db:seed
+rake db:schema:load
+rake db:seed
+rake db:seed
+rake db:seed
+rake db:seed
+rake db:seed
+cd office/mpl/
+cd ..
+cd office/
+cd mpl
+nano config/database.yml 
+cd office/
+cd mplnew/
+rake db:create
+rake db:migrate
+raisl s
+rails s
+rails c
+rails c
+sudo poweroff
+rails g migration add_index_to_score team_id:references
+rake db:migrate
+rake db:migrate
+rails g model teamscore team_id:references score_id:references
+rails g model teamscore team_id:references score_id:references
+rake db:migrate
+cd office/newmj/
+nano 4march.sql
+mysql
+cd office/
+new
+cd mplnew
+rails s
+cd ..
+rm -rf mplne
+rm -rf mplnew
+ls
+cd mplnew
+bundle
+rake db:migrate
+rake db:seed
+railss 
+rails s
+gem install mongrel
+bundle
+gem install mongrel -v '1.1.5'
+gem install mongrel
+bundle
+rails s
+rails s
+bundle
+rails c
+y Batting.first
+Batting.first
+rails c
+rails c
+rake db:seed
+rake db:seed
+rake db:seed
+rake db:seed
+rake db:migrate:reset
+rails c
+rails c
+rake tmp:clear
+rake db:seed
+rake db:seed
+rake db:seed
+rake db:seed
+rake db:seed
+rake db:seed
+rake db:seed
+rake db:seed
+rake db:seed
+rake db:seed
+rake db:seed
+rake db:seed
+rake db:seed
+rake db:seed
+rake db:seed
+rake db:migrate:reset
+rake db:seed
+rake db:migrate:reset
+rake db:seed
+rake db:seed
+rake db:seed
+Score
+rails c
+rake db:seed
+rake db:seed
+rake db:seed
+rake db:seed
+rake db:seed
+cd 
+cd user
+ssh root@166.78.24.248
+cd office/newmj/
+gedit 4march.sql
+nano config/database.yml 
+mysql -uroot -pmaheshwari mj_res < 4march.sql
+rails s -p 4000
+rails c
+rails c
+rails c
+rails s
+rails c
+mysql -uroot -pmaheshwari 
+mysql -uroot -pmaheshwari 
+nano Gemfile
+bundle
+nano Gemfile
+bundle
+bundle
+rails g uploder Photo
+rails g uploader Photo
+rails g migration add_photo_to_scores photo:string
+rails s
+rake b:migrate
+rake db:migrate
+cd ..
+cd mplnew1/
+git pull
+nano Gemfile
+nano Gemfile
+bundle
+rails g paperclip AddPhotoToScores photo:string
+rails g paperclip AddPhotoToScores photo
+rake db:migrate
+rails g paperclip score photo
+rake db:migrate
+rails s -p 4000
+rails s -p 4000
+cd office/newmj/
+git pull
+rails s
+rails s
+cd ..
+cd newmj/
+cd ..
+cd mplnew
+rails s
+rails s
+rails s
+rails s
+rails s
+git status
+git add app/views/layouts/application.html.erb
+git commit -m "mpl"
+git pull
+git push
+rails c
+cd 
+cd office/newmj/
+cd ..
+cd mplnew
+sublime-text .
+cd office/newmj/
+rails s
+git status
+git add app/views/ads/show.html.erb
+git commit -m "dfd"
+git push 
+cd
+wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+heroku 
+heroku login
+ssh-keygen -t rsa -C "kabra@maheshwarijagruth.com"
+heroku keys:add
+heroku login
+heroku apps
+cd office/
+git clone https://github.com/bhanu22776/mjmpl.git
+cd mjmpl/
+git push heroku master
+heroku create --app mjmpl
+heroku create --app "mjmpl"
+heroku create -app "mjmpl"
+heroku create app "mjmpl"
+heroku create app mjmpl
+heroku apps:create mplrails
+heroku apps:create mplrain
+gem install heroku
+rails c
+git status
+git add app/views/ads/show.html.erb
+git commit -m "ads truncate"
+git push origin master
+ssh root@166.78.24.248
+rails s
+cd
+wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+heroku 
+heroku login
+ssh-keygen -t rsa -C "kabra@maheshwarijagruth.com"
+heroku keys:add
+heroku login
+heroku apps
+cd office/
+git clone https://github.com/bhanu22776/mjmpl.git
+cd mjmpl/
+git push heroku master
+heroku create --app mjmpl
+heroku create --app "mjmpl"
+heroku create -app "mjmpl"
+heroku create app "mjmpl"
+heroku create app mjmpl
+heroku apps:create mplrails
+heroku apps:create mplrain
+gem install heroku
+heroku
+gem install heroku
+heroku login
+heroku apps:create mplrails
+git remote -v
+git remote rm origin 
+git remote add origin https://github.com/krishnakabra/mplrails.git
+git init
+git add .
+git remote rm origin 
+rm -rf .git
+git init
+rake tmp:clear
+bundle
+git init
+rake tmp:clear
+tree
+git add .
+git commit -m "first"
+git remote add origin https://github.com/krishnakabra/mplrails.git
+git push 
+git push 
+git push 
+git status
+git status
+git add .
+git commit -m "first"
+git push origin master
+git push heroku master
+git remote -v
+git remote add heroku  git@heroku.com:mplrails.git
+git push heroku master
+heroku keys:add
+git push heroku master
+ssh-add.
+ssh-add
+git push heroku master
+heroku run rake db:migrate
+heroku open

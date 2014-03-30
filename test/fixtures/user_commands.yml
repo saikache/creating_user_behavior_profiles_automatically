@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  uniq_command: MyString
+  frequency: 1
+  history_id: 1
+
+two:
+  uniq_command: MyString
+  frequency: 1
+  history_id: 1

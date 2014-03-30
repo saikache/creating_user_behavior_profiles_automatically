@@ -1,0 +1,2000 @@
+rails g migration add_designation_to_users designation:string
+rake db:migrate
+rails s
+rails g model vote voter_id:string ref_id:string 
+rake db:migrate
+rails g active_admin:resource vote
+rails s
+rake db:drop
+rake db:create
+mysql -uroot -pmaheshwari mj_res < 29jan.sql 
+rake db:migrate
+rails s
+rake db:create
+mysql -uroot -pmaheshwari mj_res < 29jan.sql 
+rake db;migrate
+rake db:migrate
+rails s
+git status
+rails s
+git status
+git add app/assets/images/forum.jpg app/assets/images/vote.gif app/views/static/forum.html.erb config/routes.rb app/views/layouts/application.html.erb
+git commit -m "demo page"
+git pull
+git push
+git pull
+ssh root@166.78.24.248
+cd
+cd vishwa/
+rvm gemset use newmj
+bundle
+rails s -p4000
+rvm gemset use newmj
+rails g
+rails g devise:install
+rails generate devise User
+rake db:migrate
+rails g
+rails g devise:views users
+rake db:migrate
+bundle
+rvm gemset create vishwa
+rvm gemset use vishwa
+bundle
+cd vishwa/
+rvm gemset use newmj
+rails s
+rvm gemset use newmj
+rails s
+rvm gemset use vishwa
+bundle update
+gem install tzinfo -v '0.3.38'
+bundle
+bundle update
+rails -v
+bundle install
+gem install rails_admin -v '0.4.9'
+bundle
+rakr db:crate
+rakr db:create
+rake db:create
+rails s
+rake routes
+rails s
+rails g paperclip post slide1 slide2 slide3 slide4
+bundle
+rails g paperclip post slide1 slide2 slide3 slide4
+rake db:migrate
+rails s
+bundle
+rails 
+rails g
+rake db:migrate
+rails s
+rake db:drop
+rake db:create
+rake db:migrate
+rails s
+rake db:drop
+rake db:create
+rake db:migrate
+rails s
+rvm gemset use vishwa
+bundle
+cd
+ls
+cd newlatestmj/
+ls
+cd newmj/
+rvm gemset use newmj
+rails s
+git pull
+rails s
+cd vishwa/
+rvm gemset use vishwa
+rails s
+rvm gemset use newmj
+cd
+cd exdevise/
+rake db:create
+bundle
+cd vishwa/
+rvm gemset use vishwa
+rails s
+rails g
+rails g active_admin:install
+rails g active_admin:resource post
+rails g active_admin:resource posts
+rake db:migrate
+rails d active_admin:resource posts
+rails s
+rails g rails_admin:uninstall
+rake db:drop
+rake db:create
+rake db:migrate
+rails s
+rvm gemset use vishwa --default
+rake routes
+rails  c
+rakeroutes
+rake routes
+rvm gemset use vishwa
+rake rputes
+rake routes
+rvm gemset use newmj
+rake routes
+cd vishwa/
+rvm gemset use vishwa
+rails s
+rails g migration add_all_to_users firstname:string surname:string mobileno:string address:text gender:string dob:date 
+rake db:migrate
+rails s
+rvm gemset use vishwa
+rvm gemset use newmj
+rails c
+rails s
+rails c
+gem install zeus
+zeus start
+cd 
+cd vishwa/
+gem install zeus
+zeus start
+cd
+rvm gemset use newmj
+cd newlatestmj/
+ls
+cd newmj/
+bundle
+rails s
+rails s -p 4000
+git pull
+git status
+cd
+git clone https://github.com/maheshwarijagruth/newmj.git
+cd newmj/
+bundle
+rake db:drop
+rake db:create
+ls
+mysql -uroot -pmaheshwari mj_res < 29jan.sql 
+rake db:migrate
+rails s
+cd
+cd newlatestmj/
+mkdir 31
+git clone https://github.com/maheshwarijagruth/newmj.git
+ls
+cd newmj/
+bundle
+rake db:drop
+rake db:create
+mysql -uroot -pmaheshwari mj_res < 29jan.sql 
+rake db:migrate
+rails s
+git pull
+rails s
+rails g migration add_servicelist_to_services servicelist:string
+rake db:migrate
+rails s
+rails s -p4000
+mysql -uroot -pmaheshwari mj_res < 1st.sql 
+rails c
+rvm gemset use vishwa
+cd vishwa/
+zeus start
+zues start
+rails s
+rvm gemset use vishwa
+cd newlatestmj/
+cd newmj/
+rvm gemset use newmj
+rails s
+rake db:drop
+rake db:create
+mysql -uroot -pmaheshwari mj_res < 1st.sql
+rake db:migrate
+rails s
+git status
+git add app/views/videos/index.html.erb
+git commit -m "event page"
+git push
+rails s
+git status
+git add app/views/layouts/application.html.erb
+git commit -m "application timer"
+git push
+git status
+rails s
+cd
+cd /tmp
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome-stable_current_i386.deb
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+google-chrome
+cd
+cd vishwa/
+rvm gemset use vishwa
+rails s -p4000
+rake db:drop
+rake db:create
+rake db:migrate
+rails s -p4000
+rake db:drop
+rake db:create
+rake db:migrate
+rails s -p4000
+rake db:drop
+rake db:create
+rake db:migrate
+rails s -p4000
+rake db:drop
+rake db:create
+rake db:migrate
+rails s -p4000
+git init
+git add .
+git commit -m "all"
+git push origin master
+git remote add origin https://github.com/sairam1274/s.git
+git push origin master
+gem install heroku
+heroku login
+heroku create --app vishwa
+git remote
+git push heroku master
+bundle
+bundle install
+bundle update
+bundle install
+git status
+git add Gemfile git config/database.yml
+
+git commit -m '2nd'
+git push origin master
+git push heroku master
+heroku run bundle install
+git status
+git add Gemfile.lock
+git commit -m '2nd df'
+git push heroku master
+sadevelopment:
+rake assets:precompile
+heroku run rake db:migrate
+heroku logs
+git push origin master
+git push heroku master
+RAILS_ENV=production bundle exec rake assets:precompile
+git status
+git add config/application.rb
+git commit -m "app"
+git push origin master
+git push heroku master
+heroku open
+heroku run rake db:migrate
+heroku open
+git status
+git add app/views/layouts/application.html.erb
+git commit -m "3rd"
+git push origin master
+git push heroku master
+git status
+git add app/views/users/registrations/new.html.erb
+git commit -m "4th"
+git push origin master
+git push heroku master
+rails c
+rake db:create
+rake db:migrate
+heroku run rails c
+heroku run rake db:drop
+heroku run rake db:create
+heroku run rake db:migrate
+heroku run rails c
+rails g
+rails g active_admin:resource users
+rake db:migrate
+rails s
+rails s -p4000
+rails g active_admin:resource user
+rails s
+git status
+git add app/admin/user.rb
+git commit -m "5th"
+git push origin master
+git push heroku master
+rvm gemset use newmj --default
+rails s
+mysqldump -uroot -pmaheshwari mj_res "services" > services.sql
+ls
+mysql -uroot -pmaheshwari mj_res < 1097jan.sql 
+mysql -uroot -pmaheshwari mj_res < services.sql 
+rails s
+rake db:drop
+rake db:create
+mysql -uroot -pmaheshwari mj_res < 1097jan.sql 
+mysql -uroot -pmaheshwari mj_res < services.sql 
+rake db:migrate
+rails s
+rvm gemset use newmj
+git status
+rails s
+mysql
+mysql -uroot -p
+rails c
+rvm gemset use vishwa --default
+zeus start
+cd vishwa/
+bundle
+rake db:drop
+rake db:create
+rake db:migrate
+rails s
+rake db:drop
+rake db:create
+rake db:migrate
+rails s
+cd vishwa/
+rvm gemset use vishwa
+rails c
+rails g
+rails g rails_admin:uninstall
+rake db:migrate
+rake db:drop
+rake routes
+rvm gemset use vishwa
+sudo -u postgres
+sudo -u postgres psql postgres
+rails s
+rake db:migrate
+rails s
+git status
+git add app/models/user.rb app/views/posts/jobs.html.erb config/database.yml config/environments/development.rb
+git commit -m "ddss"
+git push origin master
+git push heroku master
+heroku run rake db:migrate
+git pull
+git stauts
+git status
+git remote
+git remote rm origin 
+git remote rm heroku
+git remote
+git init
+git add .
+git commit -m "first commit"
+rake tmp:clear
+rake assets:precompile
+git remote add origin https://github.com/sairam1274/s.git
+git push -u origin master
+heroku login
+heroku create --app vishwa
+git push heroku master
+heroku run rake db:migrate
+heroku open
+heroku log
+heroku logs
+rake db:create
+rake db:migrate
+git init
+git add .
+git commit -m "first commit"
+git init
+git add .
+git commit -m "ddsd"
+git remote add origin https://github.com/sairam1274/s.git
+git remote
+git remote rm origin 
+git remote rm heroku 
+git remote add origin https://github.com/sairam1274/s.git
+git push -u origin master
+rake db:tmp:clear
+rake tmp:clear
+rake _T
+rake -T
+rake assets:clean   
+rake assets:precompile
+git init
+git commit -m "ddsd"
+git remote
+git remote add origin https://github.com/sairam1274/s.git
+git remote
+git remoterm o
+git remote rm origin 
+git remote add origin https://github.com/sairam1274/s.git
+git push -u origin master
+heroku login
+heroku create --app vishwa
+git push heroku master
+heroku run rake db:migrate
+herokuopen
+heroku open
+heroku logs
+cd vishwa/
+rvm gemset use vishwa
+git status
+git add app/admin/user.rb app/assets/stylesheets/scaffolds.css.scss app/views/layouts/application.html.erb app/views/posts/about.html.erb app/views/posts/contact.html.erb app/views/posts/portfolio.html.erb app/views/users/registrations/new.html.erb app/views/users/sessions/new.html.erb app/views/users/shared/_links.erb config/database.yml config/environments/development.rb db/migrate/20140131123342_add_all_to_users.rb db/schema.rb
+git commit -m "dsds"
+git push origin master
+git push heroku master
+heroku run rake db:create
+heroku run rake db:migrate
+heroku open
+git remote
+git remote rm heroku
+git remote
+heroku login
+heroku create --app vishwa
+psql
+postsql
+su – postgres
+su –postgres
+supostgres
+su postgres
+psql
+hich psql
+which psql
+psql
+which psql
+gem install pg
+sudo apt-get install pgadmin3
+psql
+postgres
+sudo postgres
+sudo psql
+rake db:create
+rake db:migrate
+git remote
+git push heroku master
+heroku open
+heroku logs
+heroku run rake db:create
+heroku run rake db:migrate
+heroku open
+rails g migration add_f_to_users fathername:string
+rake db:migrate
+rails c
+rails s
+rvm gemset use vishwa
+cd
+cd vishwa/
+rvm gemset use vishwa
+cd
+rails new newvishwa --pg
+cd newvishwa/
+bundle
+rails g scaffold post title1:string title2:string title3:string title4:string
+rake db:create
+rails g scaffold post title1:string title2:string title3:string title4:string
+rake db:migrate
+rails g
+rails g foundation:install
+rails g active_admin:install
+rails g
+rails g devise:install
+rails g devise user
+rails g devise:views users
+rake db:migrate
+rails g migration add_all_to_users firstname:string surname:string fathername:string address:text mobileno:string dob:date gender:string 
+rake db:migrate
+rails g
+rails g active_admin:resource user
+rails g active_admin:resource post
+rake db:migrate
+rails s
+bundle install
+rails s
+psql
+sudo su - postgres
+psql
+sudo -su postgres
+alias "sudo -su postgres" psql 
+alias psql="sudo -su postgres"
+psql
+cd 
+cd newvishwa/
+rvm gemset use vishwa
+bundle
+rails s -p4000
+cd newlatestmj/
+cd newmj/
+rvm gemset use newmj
+rails s
+mysql -uroot -pmaheshwari mj_res < 3feb.sql 
+mysql -uroot -pmaheshwari mj_res < services.sql 
+rails s
+rails c
+rvm gemset use newmj
+rails c
+rvm gemset use vishwa
+cd newvishwa/
+bundle
+rails s
+cd 
+cd newlatestmj/
+cd newmj/
+rails s -p 4000
+rvm gemset use newmj
+rails s -p 4000
+git status
+rails g migration add_station_to_services station:string
+rake db:migrate
+rails s -p 4000
+git status
+rvm gemset use vishwa
+rails new sasas
+rails new dds
+cd dds
+bundle
+rails s
+rails g
+rails g foundation:install
+cd
+rails new vishwa
+cd vishwa/
+rails g
+rake db:create
+rails g
+rails g foundation:install
+rails g scaffold post title1:string title2:string title3:string title4:string
+rake db:migrate
+rails s
+cd vishwa/
+rvm gemset use vishwa
+rails s
+rails g
+rails g devise:install
+rails g devise user
+rails g devise:views
+rails g devise:views user
+rails d devise:views user
+rails d devise:views users
+rails g devise:views users
+rake db:migrate
+rails s
+rake tmp:clear
+rake -T
+rake assets:precompile 
+psql
+sudo -su postgres
+rvm gemset use vishwa
+rails c
+rcm gemset use vishwa
+rvm gemset use vishwa
+rake routes
+history
+rake db:migrate
+rails g
+rails g active_admin:install
+rails g active_admin:resource user
+rails g active_admin:resource post
+rake db:migrate
+rake db:create
+rake db:migrate
+rails s
+cd vishwa/
+rvm gemset use vishwa
+rails s
+git init
+git add .
+git commit -m "1st commit"
+git remote add origin https://github.com/sairam1274/new.git
+git push -u origin master
+heroku login
+heroku create --app vishwa
+git push heroku master
+rake tmp:clear
+git status
+git remote
+git remote rm heroku 
+git remote
+git status
+git add .
+git commit -m "adada"
+git push heroku master
+git push -u origin master
+heroku login
+heroku create --app vishwa
+git push heroku master
+RAILS_ENV=production bundle exec rake assets:precompile
+git status
+git add config/application.rb
+git commit -m "app"
+git push -u origin master
+git push heroku master
+heroku open
+heroku run rake db:migrate
+heroku open
+heroku run bundle install
+heroku logs
+git status
+git add app/views/layouts/application.html.erb
+git commit -m "asasa"
+git push -u origin master
+heroku run rake db:migrate
+git push heroku master
+heroku open
+heroku run rails c
+rails s
+git status
+git add app/views/posts/demo.html.erb git app/assets/images/center.jpg
+git add app/views/posts/demo.html.erb app/assets/images/center.jpg
+git commit -m "dsdsds"
+git push -u origin master
+git push heroku master
+rails s
+git status
+git add app/views/posts/demo.html.erb app/assets/images/True Support.png
+git status
+git add app/views/posts/demo.html.erb app/assets/images/TrueSupport.png
+git commit -m "image"
+git push -u origin master
+git push heroku master
+heroku open
+rails s
+bundle
+rails g
+rails s
+git status
+git add app/assets/stylesheets/application.css app/views/posts/demo.html.erb Gemfile
+git commit -m "sdsds"
+git push -u origin master
+git push heroku master
+heroku run bundle
+git push heroku master
+git status
+git add Gemfile.lock
+git commit -m "dsdsds"
+git push heroku master
+git push -u origin master
+git push heroku master
+heroku open
+rvm gemset use vishwa
+cd
+cd newlatestmj/
+cd newmj/
+rvm gemset use newmj
+rails s -p4000
+cd socialsite/
+rvm gemset create projects
+rvm gemset use projects
+bundle
+rake db:create
+rake db:migrate
+rails s
+cd
+cd Desktop/
+ls
+cd MJBlog/
+BUNDLE
+bundle
+rake db:create 
+rake db:migrate
+rails s
+rvm list
+cd
+rvm install ruby-2.0.0-p353
+rvm list
+psql simulator
+cd
+cd exam_portal/
+bundle
+rvm gemset use orijects
+rvm gemset use projects
+rvm gemset use orijects
+rvm gemset use projects
+bundle
+rake db:create
+rake db:migrate
+rails s
+rake db:seed
+rake db:drop
+rake db:create:all
+rake db:migrate
+rake db:seed
+rake db:drop
+rake db:create:all
+rake db:migrate
+rake db:seed
+rvm gemset use projects
+rake routes
+cd
+git clone https://github.com/RailsApps/rails3-mongoid-omniauth.git
+cd rails3-mongoid-omniauth/
+bundle
+rake db:create 
+bundle exec rake db:create 
+rake db:migrate
+bundle exec rake db:migrate
+rails s
+cd
+rails -v
+rvm gemset use projects
+rails -v
+rails -v
+rvmlist
+rvm list
+rvm gemset list
+rvm gemset use projects --default
+rvm list
+rvm gemset use projects -default
+rvm gemset use projects *default
+rails -v
+history
+cd exdevise/
+rake db:create
+rvm gemset use vishwa
+bundle
+rake db:create
+bundle exec rake db:create
+rake db:drop
+bundle exec rake db:drop
+bundle exec rake tmp:clear
+bundle exec rake assets:precompile
+bundle exec rake db:create
+bundle exec rake db:migrate
+rails s
+cd
+mkdir new
+git clone git@github.com:RailsApps/rails-prelaunch-signup.git
+cd new
+ls
+cd
+cd rails-prelaunch-signup/
+bundle
+history
+rvm list
+bundle
+rake db:create
+rake db:migrate
+rails s
+cd
+rails -v
+rvm gemset use projects
+rails -v
+rails new dreamgirl
+cd dreamgirl/
+bundle
+rails g
+rails g foundation:install
+rails g devise:install
+rails g devise user
+rails g devise:views users
+rails -v
+rvm list
+rvm gemset use projects --default
+rails s
+rails g scaffold post
+rake db:create
+rake db:migrate
+rails s
+rails g foundation:install
+rails s
+rake tmp:clear
+rake assets:precompile
+rails s
+cd
+rails new friendster
+bundle
+cd friendster/
+bundle
+cd
+ls
+cd exdevise/
+bundle
+rails -v
+rake routes
+rvm gemset use projects
+urb
+irb
+cd onlinetest/
+ls
+cd onlineKiller/
+cd ..
+cd OnlineExam/
+bundle
+rake db:create
+bundle exec rake db:create
+bundle exec rake db:migrate
+bundle
+bundle exec rake db:migrate
+rake db:seed
+bundle execrake db:seed
+bundle exec rake db:seed
+rails ss
+rails s
+cd
+sudo dpkg --add-architecture i386
+sudo add-apt-repository "deb http://archive.canonical.com/ $(lsb_release -sc) partner"
+sudo apt-get update && sudo apt-get install skype
+rvm gemset use projects
+rvm gemset use vishwa
+cd vishwa/
+rails s
+git status
+git add app/views/layouts/application.html.erb
+git commit -m "dsdas"
+git push -u origin master
+git push heroku master
+heroku open
+rails c -s
+cd
+rvm gemset use newmj
+rails -v
+git clone https://github.com/maheshwarijagruth/newmj.git
+cd newmj/
+rake db:drop
+rake db:create
+mysql -uroot -pmaheshwari mj_res < 6jan.sql 
+rake db:migrate
+rails s -p4000
+irb
+cd Desktop/
+cd newmj/
+rvm gemset use newmj
+git pull
+cd
+rails new flickr
+cd flickr/
+sudo gem install flickr
+bundle
+rails g scaffold post
+sudo gem uninstall flickr
+bundle
+bundle install
+bundle update
+rvm gemset create oauth
+bundle install
+lcd
+cd
+git clone https://github.com/shettigarc/s-demo.git
+cd s-demo/
+bundle
+rake db:create
+bundle exec rake db:create
+rake tmp:clear
+bundle exec rake tmp:clear
+bundle exec rake db:migrate
+rails s
+rails g
+rails s
+cd
+git clone git@github.com:moQuez/dr_picasa.git
+cd dr_picasa/
+bundle
+gem install curb -v '0.8.3'
+bundle update
+rake db:create
+rake db:migrate
+rails s
+bundle
+bundle update
+rake db:create
+cd
+rvm gemset create picasa
+rvm gemset use picasa
+git clone git@github.com:ryanbriones/chiliproject_hide_issue_fields.git
+cd chiliproject_hide_issue_fields/
+bundle
+cd
+git clone git@github.com:miio/glass_field.git
+cd glass_field/
+bundle
+rake db:create
+bundle exec rake db:create
+rails s -p4000
+bundle exec rake db:create
+cd
+clear
+git clone git@github.com:ikangiec/Bonus-Challenge.git
+cd B
+cd Bonus-Challenge/
+bundle
+ls
+cd manageuser/
+bundle
+rake db:create
+bundle exec rake db:create
+cd
+git clone git@github.com:sprestage/CollaborativeQandA.git
+cd CollaborativeQandA/
+bundle update
+bundle
+bundle exec rake db:create
+bundle exec rake db:migrate
+rake tmp"clear
+rake tmp:clear
+rake assets:clean
+rvm gemset list
+rvm gemset use projects
+bundle
+bundle exec rake db:create
+rake db:create
+rake db:migrate
+rake tmp:clear
+cd
+rvm gemset use projects
+git clone git@github.com:cclaiborne/User_Blog.git
+cd U
+cd User_Blog/
+bundle
+ls
+cd UserBlog/
+bundle
+rake db:create
+bundle exec rake db:create
+bundle exec rake db:migrate
+rails s
+rails s -p4040
+rails -c
+rails -v
+rails server
+rvm gemset use picasa
+rails -v
+bundle update
+bundle
+rake db:create
+rake db:migrate
+rails s
+rake db:migrate
+bundle exec rake db:migrate
+cd
+git clone git@github.com:peyav/blog.git
+cd blog/
+bundle
+rake db:create
+bundle exec rake db:create
+bundle exec rake db:migrate
+rails s
+rake routes
+bundle exec rake routes
+rails s
+cd
+rvm gemset create foundation
+rails new friendster
+rvm gemset use projects
+rails s
+rails -v
+rvm gemset use picasa
+rails -v
+rvm gemset list
+rvm gemset use vishwa
+rails -v
+rails new friendster
+cd friendster/
+bundle
+rvm gemset use newmj
+rails s
+rvm gemset use vishwa
+cd
+cd social-networking-site/
+bundle
+rails -v
+gem install debugger-linecache -v '1.1.2'
+cd
+rails -v
+ruby -v
+sudo restart
+sudo poweroff
+sudo apt-get autoclean
+sudo reboot
+sudo nano /etc/lightdm/lightdm.conf
+sudo apt-get update;sudo apt-get dist upgrade
+sudo rebooot
+sudo reboot
+sudoreboot
+sudo reboot
+rvm gemset use newmj --default
+postgres
+psql
+sudo -su postgres
+rails -v
+rvm gemset use vishwa
+rails new audio
+cd audio
+gem install aws-s3
+bundle
+cd
+rails new blog
+cd blog/
+rails g resource comment name:string body:text
+rake db:migrate
+cd
+git clone https://github.com/bernat/myCommentsApp.git
+cd myCommentsApp/
+bundle
+gem install text-hyphen -v '1.0.2'
+ruby -v
+bundle
+rake db:migrate
+bundle
+rake db:migrate
+bundle install
+rake db:create
+cd
+git clone https://github.com/bernat/semantic.git
+cd semantic/
+bundle
+rake db:create
+rake db:migrate
+rails s
+rake db:seed
+rails s
+rake db:drop
+rake db:create
+rake db:seed
+rake db:migrate
+rails s
+cd
+cd newmj
+rvm gemset use newmj
+rails s
+git pull
+rails s
+fuser -k 3000/tcp
+rails s
+rvm gemset use newmj
+rails s
+rails c
+ssh root@166.78.24.248
+ls
+cd Desktop/
+ls
+mkdir feb
+cd feb/
+rvm gemset use newmj
+git clone https://github.com/maheshwarijagruth/newmj.git
+cd newmj
+rake db:drop
+rake db:create
+mysql -uroot -pmaheshwari mj_res < 11feb.sql 
+rake db:migrate
+rails s
+git status
+git add config/application.rb
+git commit -m "application"
+git push
+ssh root@166.78.24.248
+git status
+rails g model freelistb2b name:string companyname:string address:text type:string email:stringcontactno:integer
+rake db:migrate
+rails d model freelistb2b name:string companyname:string address:text type:string email:stringcontactno:integer
+rails g model freelistb2b name:string companyname:string address:text type:string email:stringcontactno:integer
+rails g model freelistb2b name:string companyname:string address:text type:string email:string contactno:integer
+rake db:migrate
+rails s
+rails g migration add_ad_to_freelistb2b adtype:string
+rake db:migrate
+rails s
+sudo -su postgres
+exit
+subl
+vim
+gvim
+vi
+gedit
+irb
+firefox
+firefox
+unity --reset
+rails c
+cd
+sudo dd if=/dev/zero of=/dev/sdb
+cd Desktop/
+cd feb/
+cd newmj/
+rails g migration add_web_to_freelistb2b website:string
+rake db:migrate
+rails g
+rails g active_admin:resource freelist
+rails g active_admin:resource freelistb2b
+history
+sudo lshw -C disk
+gksudo gparted
+sudo fdisk /dev/sdb 
+sudo fdisk /dev/sdb1 
+sudo apt-get install gparted
+dmseg | Tail
+sudo umount /dev/sdb
+sudo mkfs.vfat -n ‘Ubuntu’ -I /dev/sdb
+sudo umount /dev/sdb
+sudo mkfs.vfat -n ‘Ubuntu’ -I /dev/sdb
+cd Desktop/feb/newmj/
+rails c
+rvm gemset use newmj
+rails c
+cd
+sudo fdisk -l
+sudo umount /dev/sdb
+sudo mkfs -t <fstype> /dev/sdb
+sudo mkfs  /dev/sdb
+mkfs.vfat /dev/sdb
+ls
+fdisk -l
+sudo umount /dev/sdb1
+sudo umount /dev/sdb
+sudo umount /dev/sdc
+cd Orchestra-Music-App/
+bundle
+rvm gemset use oauth
+bundle
+rake db:create
+bundle exec rake db:create
+bundle exec rake db:migrate
+rake db:create
+bundle
+rake db:create
+bundle exec rake db:create
+bundle exec rake db:load_config
+bundle exec rake --trace
+rails s
+bundle exec rake --trace
+gem install ruby-debug
+bundle exec rake db:create
+bundle exec rake db:drop
+bundle 
+bundle exec rake db:create
+bundle exec rake --trace
+bundle exec rake db:create
+bundle exec rake db:create:all
+bundle exec rake db:create
+bundle exec rake --trace
+bundle exec rake db:test:prepare
+bundle exec rake db:create
+bundle exec rake --trace
+bundle update
+bundle exec rake db:drop db:create db:test:prepare
+bundle 
+bundle exec rake 
+bundle 
+bundle exec rake db:create db:test:prepare
+bundle exec rake db:create 
+bundle exec rake --trace
+bundle exec rake db:create db:test:prepare db:abort_if_pending_migrations
+cd
+git clone git@github.com:crowdint/rails3-jquery-autocomplete-app.git
+cd rails3-jquery-autocomplete-app/
+bundle
+gem install ffi -v '0.6.3
+bundle update
+gem install bundler
+bundle update
+cd
+killall firefox
+cd
+git clone git@github.com:naoyamakino/Pacman.git
+cd pac
+cd Pac
+cd Pacman/
+bundle
+rake db:create
+gem install -v=2.3.5 rails
+rake db:create
+mysql -uroot -pmaheshwari pacman < sql.dump 
+rake db:create
+gem install mysql
+rake db:create
+rake db:migrate
+mysql -uroot -pmaheshwari pacman < sql.dump 
+rails s
+rake db:migrate
+sudo gem install rails -v=2.3.11
+rake db:migrate
+cd
+rails -v
+irb
+cd Desktop/
+cd feb/
+cd newmj/
+rvm gemset use newmj
+rails c
+rails -v
+rvm gemset list
+rvm gemset use picasa
+rails -v
+rvm gemset use vishwa
+rails -v
+rvm gemset use newmj
+rails c
+mysql -uroot -pmaheshwari mj_res < 13feb.sql 
+rails c
+rails -v
+rvm list
+rvm gemset list
+rvm gemset delete newmj
+rvm gemset list
+rails -v
+rvm gemset create newmj
+cd Desktop/
+cd feb/
+cd newmj/
+bundle update
+rails s-v
+rails -v
+rake db:drop
+rake db:create
+mysql -uroot -pmaheshwari mj_res < 13feb.sql 
+rake db:migratre
+rake db:migrate
+rails s
+readelf -l encdb.so | grep LOAD | head -1
+rvm get stable
+rvm upgrade 1.9.3
+rails -v
+rvm list
+rvm gemset use newmj --default
+rails -v
+rvm list
+rvm uninstall ruby-1.9.3-p448
+rvm list
+rails s
+rvm gemset list
+rvm gemset delete newmj
+rvm gemset list
+rails -v
+rvm gemset create newmj
+cd Desktop/
+cd feb/
+cd newmj/
+bundle update
+rails s-v
+rails -v
+rake db:drop
+rake db:create
+mysql -uroot -pmaheshwari mj_res < 13feb.sql 
+rake db:migratre
+rake db:migrate
+rails s
+readelf -l encdb.so | grep LOAD | head -1
+rvm get stable
+rvm upgrade 1.9.3
+rvm upgrade 1.9.3rvm list
+rvm list
+rvm use ruby-1.9.3-p448 --default
+rails -v
+bundle
+rails s
+rvm list
+rvm gemset list
+rvm gemset delete 2.3.5
+rvm gemset delete projects
+rvm gemset list
+rvm gemset delete oauth
+rvm gemset list
+
+
+rvm gemset delete newmj
+rvm gemset li
+rvm gemset delete picasa
+rvm gemset create newmj
+rvm gemset use newmj
+bundle update
+bundle
+rake db:drop
+rake db:create
+mysql -uroot -pmaheshwari mj_res < 13feb.sql 
+rake db:migrate
+rails s
+cd
+cd demo/
+cd
+cd Desktop/
+cd SBrowser/
+ls
+ruby SBrowser.rb
+ruby SBrowserWindow.rb 
+rvm list
+rvm uninstall ruby-2.0.0-p353
+rvm list
+rvm uninstall ruby-2.1.0
+rvm list
+cd
+cd Desktop/
+cd feb/
+cd newmj/
+rails s
+gem uninstall eventmachine
+rails s
+bundle install
+rvm list
+rvm use ruby-1.9.3-p448
+rvm gemset list
+rvm gemset use newmj
+bundle install
+perl -i -pe 'y|\r||d' script.pl
+bundle install
+sed -i -e 's/\r$//' create_mgw_3shelf_6xIPNI1P.sh
+lrwxrwxrwx 1 root root 22 Aug 12 20:11 /usr/bin/ruby -> /etc/alternatives/ruby
+bundle install
+rvm list
+rvm use ruby-1.9.3-p484
+rvm gemset list
+rvm gemset use newmj
+bundle install
+rails s
+rails g migration add_mjid_to_freelistb2bs mjid:string
+rvm list
+rvm use ruby-1.9.3-p484 --default
+rake db:migrate
+rvm list
+rvm use ruby-1.9.3-p48 --default
+rvm list
+rake db:migrate
+rvm list
+rvm gemset list
+rvm use ruby-1.9.3-p484 --default
+rvm gemsetlist
+rvm gemset list
+rvm gemset use newmj
+bundle
+rake db:migrate
+rails s
+git status
+rails s
+rake routes
+rvm list
+rvm gemset list
+rvm gemset delete picasa
+irb
+cd Desktop/
+cd f
+cd feb/
+ls
+cd feb15/
+cd newmj/
+rails s
+rake routes
+exit
+rake db:drop
+exit
+ping facebook.com
+rvm list
+rvm use uby-1.9.3-p484 --default
+rvm gemset list
+rvm gemset use newmj --default
+cd myprojects/
+ls
+cd exam_portal/
+rvm gemset  list
+rvm gemset use oauth
+rvm gemset use oauth 
+cd
+cd myprojects/
+git clone git@github.com:milleniumsalman/pahm-250.git
+cd pahm-250/
+bundle
+gem install therubyracer -v '0.9.10'
+cd..
+cd ..
+git clone git@github.com:openresponsive/openresponsive.git
+cd openresponsive/
+bundle
+git pull
+bundle update
+rake db:create
+rake db:migrate
+rails s
+rails g
+rails g controller static home about contact 
+cd ..
+ls
+mkdir backup
+mv openresponsive/ backup/
+rails -v
+rails new openresponsive -m ~/Music/static_website_template\ \(1\).rb 
+rm -rf openresponsive/
+rails new openresponsive -m ~/Music/static_website_template\ \(1\).rb 
+cd openresponsive/
+rails s
+rails g foundation:install
+rails s
+git branch
+git init
+git remote add origin git@github.com:openresponsive/openresponsive.git
+git remote -v
+git status
+git add .
+git commit -m "version v23"
+git branch
+git branch dev
+git checkout dev
+git status
+git push origin master
+git push origin dev
+git add .
+git commit -m "version34"
+git push origin dev -f
+git merge
+cd
+git merge
+git 
+man git-merge
+cd myprojects/
+cd backup/
+cd openresponsive/
+cd ..
+cd openresponsive/
+cd ..
+rm -rf backup/
+cd openresponsive/
+rails s
+cd myprojects/
+cd openresponsive/
+rvm gemset use oauth
+rvm gemset list
+rvm gemset create openresponsive
+rvm gemset use openresponsive
+rake routes
+cd
+cd Desktop/
+cd f
+cd feb/
+cd feb15/
+cd newmj/
+rails s
+rvm gemset use newmj
+rails s
+rails s -p4949
+cd ..
+git clone git@github.com:DecSmith/CSS3-fullscreen-slideshow.git
+cd
+cd myprojects/
+git clone git@bitbucket.org:chanakyacool/sharonmines.git
+cd openresponsive/
+git status
+rvm gemset use openresponsive
+bundle
+rails s -p4000
+rake assets:precompile
+rake tmp:clear
+rails s
+rails s -p 3030
+cd
+cd Desktop/
+git clone https://github.com/openresponsive/openresponsive.git
+cd openresponsive/
+rvm gemset use openresponsive
+bundle
+rails s -p3030
+bundle
+rails g
+rails s -p3030
+cd myprojects/
+cd OnlineExam/
+rvm gemset use oauth
+rails s
+cd
+cd Desktop/
+cd f
+cd feb/
+cd feb15/
+cd newmj/
+rvm gemset use newmj
+rails s
+git pull
+rvm gemset use newmj --default
+git status
+rvm gemset use newmj --default
+git pull
+rails s
+git status
+git add app/views/ads/freelist.html.erb
+git commit -m "freelist form"
+git pull
+git push origin master
+rails s
+cd
+cd myprojects/
+ls
+cd chanakyacool-sharonmines-8cd5f9149592/
+rvm gemset use oauth
+bundle
+rake db:create 
+rake db:migrate
+rails s
+cd myprojects/
+ls
+cd chanakyacool-sharonmines-8cd5f9149592/
+rvm gemset use oauth
+bundle
+rails s
+cd
+cd Desktop/
+cd openresponsive/
+rvm gemset use openresponsive
+rails s -p 4000
+cd ..
+cd
+cd myprojects/
+cd vishwa/
+rvm gemset use vishwa
+rvm gemset list
+rails s -p9393
+rvm gemset use newmj
+rails s -p9393
+rvm gemset use oauth
+rails s -p9393
+rvm gemset use foundation
+rails s -p9393
+rvm gemset delete foundation
+rvm gemset list
+rvm gemset create foundation
+cd ..
+cd openresponsive/
+rvm gemset use openresponsive
+rails s -p4044
+cd Desktop/
+cd openresponsive/
+rvm gemset use openresponsive 
+rails s
+gem install proxylocal
+proxylocal 3000
+proxylocal 3000 --host testhost
+proxylocal 3000
+rvm gemset use openresponsive
+rails s
+cd Desktop/
+cd openresponsive/
+rvm gemset use openresponsive
+rails s
+cd 
+cd myprojects/
+cd chanakyacool-sharonmines-8cd5f9149592/
+rvm gemset  use oauth
+rails s -p 4040
+cd ..
+cd feb/
+cd feb15/
+cd newmj/
+git pull
+rails s -p4000
+rvm gemset use newmj
+rails s -p4000
+mysql -uroot -pmaheshwari mj_res < 17dump.sql 
+rails s -p4000
+rails s
+rvm gemset use openresponsive
+cd Desktop/
+cd openresponsive/
+rails s
+rails s -p4040
+rake routes
+rvm gemset use newmj
+rake routes
+ils s
+rvm gemset use openresponsive
+cd Desktop/
+cd openresponsive/
+rails s
+rails s -p4040
+cd Desktop/
+cd feb/
+cd feb15/
+cd newmj/
+git pull
+rvm gemset use newmj
+rails s
+git status
+git add app/views/users/index.erb
+git commit -m "other remove"
+git pull
+git push origin master
+rails 
+rails s
+git pull
+rails s
+rails c
+rvm gemset use newmj
+rails c
+cd
+cd sairamblogspot/
+rvm gemset use oauth
+bundle
+rails g
+bundle update
+rails g
+rails g scaffold post name:string message:text
+rake db:create
+rails g scaffold post name:string message:tex
+rake db:migrate
+rails g
+rails g foundation:install
+rails g devise:install
+rails g devise use
+rails g devise user
+rails g devise:views users
+rake db:migrate
+rails s -p 5050
+rails g migration add_all_to_users firstname:string lastname:string phoneno:string address:text dob:string zipcode:string  
+rake db:migrate
+rails s 
+cd
+sudo apt-get install youtube-dl
+youtube-dl http://www.youtube.com/watch?v=SIMbZtUuj5w
+cd root
+cd /
+cd usr
+cd bin
+ls
+cd youtube-dl
+sudo  cd youtube-dl
+cd
+ced
+cd
+youtube-dl http://www.youtube.com/watch?feature=player_detailpage&v=SIMbZtUuj5w
+youtube-dl http://www.youtube.com/watch?feature=player_detailpage&v=SIMbZtUuj5w#t=2885
+cd Desktop/
+cd feb/
+cd feb15/
+cd newmj/
+rvm gemset use newmj
+rails s
+mysql -uroot -pmaheshwari mj_res < 20thfeb.sql 
+rails ss
+rails s
+cd De
+cd sairamblogspot/
+rvm gemset use oauth
+rails s
+cd
+ls
+cd Desktop/
+cd sasas/
+rvm gemset use oauth
+rails s -p4040
+rake tmp:clear
+rake assets:precompile
+rails s -p4000
+r
+rails s -p4000
+cd Desktop/
+cd feb/
+cd feb15/
+cd newmj/
+rvm gemset use newmj
+git pull
+git stash
+git pull
+git status
+git stash drop
+rails s
+ssh root@166.78.24.248
+rails s
+rails g migration add_ccs_to_freelistb2bs country:string state:string city:string
+rake db:migrate
+rails s
+rake db:drop
+rake db:create
+mysql -uroot -pmaheshwari mj_res < 20thfeb.sql 
+rake db:migrate
+rails s
+rvm gemset use newmj
+rails c
+cd sairamblogspot/
+rvm gemset use oauth
+rails s
+sudo -su postgres
+rake db:create
+rake db:migrate
+rails s
+cd
+cd Desktop/
+cd feb/
+cd feb15/
+cd newmj/
+rvm gemset use newmj
+rails s -p 4000
+rvm gemset use newmj
+rails s
+rake db:drop
+rake db:create
+mysql -uroot -pmaheshwari mj_res < 20thfeb.sql 
+rake db:migrate
+rails s
+git status
+git add app/admin/freelistb2b.rb app/controllers/ads_controller.rb app/models/freelistb2b.rb app/views/ads/editfreelist.html.erb app/views/ads/editfreelist.html.erb app/views/ads/freelist.html.erb app/views/ads/index.html.erb app/views/ads/show.html.erb 
+git status
+git add app/admin/freelistb2b.rb app/controllers/ads_controller.rb app/models/freelistb2b.rb app/views/ads/editfreelist.html.erb  app/views/ads/freelist.html.erb app/views/ads/index.html.erb app/views/ads/show.html.erb  db/migrate/20140221063256_add_ccs_to_freelistb2bs.rb
+git commit -m "ads city country state"
+git pull
+git add app/views/ads/index.html.erb
+git commit -m "ads conflict"
+git pull
+git push origin master
+git pull
+ssh root@166.78.24.248
+rails s
+git status
+git add app/views/ads/show.html.erb
+git commit -m "upcase"
+git pull
+git push origin master
+rails s
+irb
+cd
+cd sairamblogspot/
+cd
+git clone git@github.com:Thu-SaaS-CloudComputing/CloudComputing.git
+cd CloudComputing/
+rvm gemset list
+rvm gemset create cloud
+rvm gemset use cloud
+bundle
+cd Desktop/
+cd feb/
+cd feb15/
+cd newmj/
+rvm gemset use newmj
+git status
+rails c
+rake appdoc
+rake stats
+rails c
+cd
+cd CloudComputing/
+rvm gemset use cloud
+bundle
+rails s -p4040
+cd
+rvm gemset use newmj
+rails s
+mysql -uroot -pmaheshwari mj_res < 24oct.sql 
+rake db:migrate
+rake db:drop
+rake db:create
+mysql -uroot -pmaheshwari mj_res < 24oct.sql 
+rake db:migrate
+
+mysql -uroot -pmaheshwari mj_res < 20thfeb.sql 
+rake db:migrate
+rails s
+cd Desktop/
+cd feb/feb15/newmj/
+git pull
+rvm gemset use newmj
+rails s
+fuser -k 3000/tcp
+rails s
+cd
+rails new demo
+cd demo
+bundle 
+bundle update
+rake db:create
+rake db:migrate
+rails s
+rails g scaffold static
+rails s
+bundle
+rails s
+bundle update
+rails s
+bundle
+rails s
+cd
+cd demo/
+cd
+cd Desktop/
+cd f
+cd feb/
+cd feb15/
+cd new
+cd newmj/
+rvm gemset use newmj
+bundle
+rails s
+bundle
+rais s
+rails s
+rake assets:precompile
+rake tmp:clear
+rails s
+rvm gemset use newmj
+rails c
+killall firefox
+cd Desktop/
+cd feb/
+cd feb15/e
+cd feb15/
+cd newmj/
+rvm gemset use newmj
+rails s
+ls
+mysql -uroot -pmaheshwari mj_res < 20thfeb.sql 
+rails s
+rake db:migrate
+rails s
+rvm gemset use newmj
+cd De
+cd Desktop/
+cd feb/
+cd feb15/
+cd newmj/
+rvm gemset use newmj
+rvm gemset use newmjrails s
+rails s
+rvm gemset use newmjrails s
+rails s
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/sairam1274/kunalmj.git
+git push -u origin master
+git remote add origin https://github.com/sairam1274/kunalmj.git
+git add app
+git commit -m "Sasa'
+"
+git commit -m "Sasa"git remote add origin https://github.com/sairam1274/kunalmj.git
+git git remote add origin https://github.com/sairam1274/kunalmj.git
+git init
+git add app
+git commit -m "Sasa"
+git remote add origin https://github.com/sairam1274/kunalmj.git
+git init
+git add app
+git commit -m "first commit"
+git remote add origin https://github.com/sairam1274/kundad.git
+git remote
+git remote -v
+git remote rm origin
+git commit -m "first commit"
+git remote add origin https://github.com/sairam1274/kundad.git
+git push -u origin master
+git remote rm origin
+git add .
+git commit -m "sasasa"
+git remote
+git init
+
+git commit -m "sasasa"
+git remote add origin https://github.com/sairam1274/kundad.git
+git push -u origin master
+cd Desktop/
+cd feb/
+cd feb15/
+cd newmj/
+rvm gemset use newm
+rvm gemset use newmj
+rails s
+rvm gemset use newmj
+rails s
+cd Desktop/
+cd feb/
+cd feb15/
+cd newmj/
+rvm gemset use newmj
+rails s
+rails c
+cd Desktop/
+cd feb/
+cd feb15/
+cd newmj/
+rvm gemset use newmj
+rails s
+ssh root@166.78.24.248
+rvm gemset use newmj
+rails c
+cd De
+cd Desktop/
+cd feb/
+cd feb15/
+cd newmj/
+rvm gemset use new
+rvm gemset use newmj
+rails s
+sudo -su postgres
+rvm gemset use newmj
+killall firefox
+cd De
+cd Desktop/
+cd feb/
+cd feb15/
+cd newmj/
+rvm gemset use newmj
+rails s
+rake tmp:clear
+rake assets:precompile
+rails s
+cd 
+rails new mm
+rm -rf mm
+rvm gemset use newmj
+rails new mm
+cd mm/
+bundle
+cd
+rvm gemset use newmj
+rm -rf mm
+cd De
+cd Desktop/
+cd feb/
+ls
+cd feb15/
+ls
+cd sbadmin/
+cd newmj/
+rails s -p 5050
+bundle
+rails s -p 5050
+cd Desktop/
+cd feb/
+cd feb15/
+cd newmj/
+rvm gemset use newmj
+rake tmp:clear
+rake assets:precompile
+rails s
+rake assets:precomiple
+rake assets:precompile
+rails s
+bundle
+rails s
+rails g
+bundle
+rails s
+rake assets:precompile RAILS_ENV=development
+rails s
+fuser -k 3000/tcp
+rails s
+fuser -k 3000/tcp
+rails s
+rake assets:precompile
+rake tmp:clear
+rails s
+bundle exec rake assets:precompile
+rake tmp:clear
+rake assets:precompile
+rails s
+cd Desktop/
+cd f
+cd feb/
+cd feb15/
+ls
+cd sbadmin/
+rvm gemset use newmj
+rails s
+cd newmj/
+rails s
+cd ..
+ls
+cd newmj/
+rails s -p4040
+rvm gemset use newmj
+rails s -p4040
+cd Desktop/
+cd f
+cd feb/
+cd feb15/
+cd sbadmin/
+cd newmj/
+rvm gemset use newmj
+rails s
+cd
+git clone git@heroku.com:detail.git
+cd ..
+ls
+cd newmj/
+rails s -p3030
+rvm gemset use newmj
+rails s -p3030
+ls
+cd sbadmin/
+cd newmj/
+rails s -p4040
+rvm gemset use newmj
+rails s -p4040
+cd ..
+ls
+cd latestadmin/
+cd newmj/
+rails s -p3030
+rake tmp:"clear
+rake tmp:clear
+rake assets:precompile
+rails s -p3030
+ls
+cd newmj/
+rails s
+rvm gemset use newmj
+rails s
